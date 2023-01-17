@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{22373759-6F7E-44D5-A55F-49C64A113287}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ADX_BtcPlant</RootNamespace>
+    <AssemblyName>ADX_BtcPlant</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Epicor.Ice.Version, Version=3.1.600.0, Culture=neutral, PublicKeyToken=5d3fa3c7105d7992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Epicor.Ice.Version.dll</HintPath>
+    </Reference>
+    <Reference Include="Epicor.ServiceModel, Version=3.1.600.0, Culture=neutral, PublicKeyToken=37a5ccb872c00aec, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Epicor.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Adapters.Company, Version=10.1.600.0, Culture=neutral, PublicKeyToken=5d3fa3c7105d7992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Erp.Adapters.Company.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Adapters.InventoryQtyAdj">
+      <HintPath>..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Erp.Adapters.InventoryQtyAdj.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Adapters.IssueReturn, Version=10.1.600.0, Culture=neutral, PublicKeyToken=5d3fa3c7105d7992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Erp.Adapters.IssueReturn.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Adapters.JobClosing, Version=10.1.600.0, Culture=neutral, PublicKeyToken=5d3fa3c7105d7992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Erp.Adapters.JobClosing.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Adapters.JobEntry, Version=10.1.600.0, Culture=neutral, PublicKeyToken=5d3fa3c7105d7992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Erp.Adapters.JobEntry.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Adapters.Part, Version=10.1.600.0, Culture=neutral, PublicKeyToken=5d3fa3c7105d7992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Erp.Adapters.Part.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Adapters.ReceiptsfromMfg, Version=10.1.600.0, Culture=neutral, PublicKeyToken=5d3fa3c7105d7992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Erp.Adapters.ReceiptsfromMfg.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Common.ContractInterfaces, Version=10.1.600.0, Culture=neutral, PublicKeyToken=5d3fa3c7105d7992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Erp.Common.ContractInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Contracts.BO.Company, Version=10.1.600.0, Culture=neutral, PublicKeyToken=5d3fa3c7105d7992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Erp.Contracts.BO.Company.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Contracts.BO.InventoryQtyAdj">
+      <HintPath>..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Erp.Contracts.BO.InventoryQtyAdj.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Contracts.BO.IssueReturn, Version=10.1.600.0, Culture=neutral, PublicKeyToken=5d3fa3c7105d7992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Erp.Contracts.BO.IssueReturn.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Contracts.BO.JobClosing, Version=10.1.600.0, Culture=neutral, PublicKeyToken=5d3fa3c7105d7992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Erp.Contracts.BO.JobClosing.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Contracts.BO.JobEntry, Version=10.1.600.0, Culture=neutral, PublicKeyToken=5d3fa3c7105d7992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Erp.Contracts.BO.JobEntry.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Contracts.BO.Part, Version=10.1.600.0, Culture=neutral, PublicKeyToken=5d3fa3c7105d7992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Erp.Contracts.BO.Part.dll</HintPath>
+    </Reference>
+    <Reference Include="Erp.Contracts.BO.ReceiptsFromMfg, Version=10.1.600.0, Culture=neutral, PublicKeyToken=5d3fa3c7105d7992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Erp.Contracts.BO.ReceiptsFromMfg.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.3.6.0\lib\net45\ExcelDataReader.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.DataSet.3.6.0\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ice.Adapters.UD38, Version=3.1.600.0, Culture=neutral, PublicKeyToken=5d3fa3c7105d7992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Ice.Adapters.UD38.dll</HintPath>
+    </Reference>
+    <Reference Include="Ice.Contracts.BO.GenXData, Version=3.1.600.0, Culture=neutral, PublicKeyToken=5d3fa3c7105d7992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Ice.Contracts.BO.GenXData.dll</HintPath>
+    </Reference>
+    <Reference Include="Ice.Contracts.BO.UD38, Version=3.1.600.0, Culture=neutral, PublicKeyToken=5d3fa3c7105d7992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Ice.Contracts.BO.UD38.dll</HintPath>
+    </Reference>
+    <Reference Include="Ice.Contracts.Lib.BOReader, Version=3.1.600.0, Culture=neutral, PublicKeyToken=5d3fa3c7105d7992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Ice.Contracts.Lib.BOReader.dll</HintPath>
+    </Reference>
+    <Reference Include="Ice.Contracts.Lib.ClientCache, Version=3.1.600.0, Culture=neutral, PublicKeyToken=5d3fa3c7105d7992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Ice.Contracts.Lib.ClientCache.dll</HintPath>
+    </Reference>
+    <Reference Include="Ice.Contracts.Lib.SessionMod, Version=3.1.600.0, Culture=neutral, PublicKeyToken=5d3fa3c7105d7992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Ice.Contracts.Lib.SessionMod.dll</HintPath>
+    </Reference>
+    <Reference Include="Ice.Core.Session, Version=3.1.600.0, Culture=neutral, PublicKeyToken=5d3fa3c7105d7992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Ice.Core.Session.dll</HintPath>
+    </Reference>
+    <Reference Include="Ice.Lib.EpiClientLib, Version=3.1.600.0, Culture=neutral, PublicKeyToken=5d3fa3c7105d7992, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Epicor\ERP10\LocalClients\ERP102_PILOT\Ice.Lib.EpiClientLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsAppConfigs.cs" />
+    <Compile Include="clsBtcPltFileAttr.cs" />
+    <Compile Include="clsBtcPltFiles.cs" />
+    <Compile Include="clsBtcPltMat.cs" />
+    <Compile Include="clsEpicor.cs" />
+    <Compile Include="clsError.cs" />
+    <Compile Include="clsEventLogger.cs" />
+    <Compile Include="frmBtcPltCfg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBtcPltCfg.Designer.cs">
+      <DependentUpon>frmBtcPltCfg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBtcPltMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBtcPltMain.Designer.cs">
+      <DependentUpon>frmBtcPltMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmBtcPltCfg.resx">
+      <DependentUpon>frmBtcPltCfg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBtcPltMain.resx">
+      <DependentUpon>frmBtcPltMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,3957 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ice.Contracts.BO.BAQDesigner</name>
+    </assembly>
+    <members>
+        <member name="T:Ice.BO.AspExportFieldDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.AspExportFieldDataSet.AspExportFieldDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.AspExportFieldDataSet.AspExportFieldRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.AspExportFieldDataSet.AspExportFieldRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQBOTablesDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQBOTablesDataSet.BAQBOtablesDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQBOTablesDataSet.BAQBOtablesRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQBOTablesDataSet.BAQBOtablesRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesigner.BAQDesignerConstants">
+            <summary>
+            BAQ designer common constants
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesigner.BAQDesignerConstants.QueryRetrievalMode">
+            <summary>Enumeration specifies how GetByID should be called from BAQDesigner</summary>
+        </member>
+        <member name="F:Ice.BO.BAQDesigner.BAQDesignerConstants.QueryRetrievalMode.Design">
+            <summary>
+            all data necessary for query design should be retrieved
+            </summary>
+        </member>
+        <member name="F:Ice.BO.BAQDesigner.BAQDesignerConstants.QueryRetrievalMode.Runtime">
+            <summary>
+            only data necessary for query execution should be retrieved
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesigner.WellKnownFieldAttributeNames">
+            <summary>
+            List of well known field attribute names
+            </summary>
+        </member>
+        <member name="F:Ice.BO.BAQDesigner.WellKnownFieldAttributeNames.Caption">
+            <summary>display label for the field</summary>
+        </member>
+        <member name="F:Ice.BO.BAQDesigner.WellKnownFieldAttributeNames.Format">
+            <summary>field format string</summary>
+        </member>
+        <member name="F:Ice.BO.BAQDesigner.WellKnownFieldAttributeNames.Required">
+            <summary>Is the field required</summary>
+        </member>
+        <member name="F:Ice.BO.BAQDesigner.WellKnownFieldAttributeNames.ReadOnly">
+            <summary>Is the field readonly</summary>
+        </member>
+        <member name="F:Ice.BO.BAQDesigner.WellKnownFieldAttributeNames.Like">
+            <summary>Reference to like field</summary>
+        </member>
+        <member name="F:Ice.BO.BAQDesigner.WellKnownFieldAttributeNames.BizType">
+            <summary>Business type of the field</summary>
+        </member>
+        <member name="F:Ice.BO.BAQDesigner.WellKnownFieldAttributeNames.PredictiveSearch">
+            <summary>Predictive search data</summary>
+        </member>
+        <member name="F:Ice.BO.BAQDesigner.WellKnownFieldAttributeNames.CurrencyCodeCol">
+            <summary>Currency code</summary>
+        </member>
+        <member name="F:Ice.BO.BAQDesigner.WellKnownFieldAttributeNames.CurrencyType">
+            <summary>Source setting for currency</summary>
+        </member>
+        <member name="F:Ice.BO.BAQDesigner.WellKnownFieldAttributeNames.CurrencyDecimalType">
+            <summary>Currency</summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesigner.SharedUtilities">
+            <summary>
+            BAQ designer utilities shared between Server and Client
+            </summary>
+        </member>
+        <member name="M:Ice.BO.BAQDesigner.SharedUtilities.IsSpecialTable(System.Boolean,System.String,System.String)">
+            <summary>
+            Returns true if provided <paramref name="schema"/>.<paramref name="dataTableID"/> is special in <paramref name="multiTenantInstallation"/>
+            </summary>
+            <param name="multiTenantInstallation">Is current installation multitenant</param>
+            <param name="schema">Table schema</param>
+            <param name="dataTableID">Table name</param>
+            <returns>True if provided <paramref name="dataTableID"/> is special in <paramref name="multiTenantInstallation"/></returns>
+        </member>
+        <member name="T:Ice.BO.BAQDesigner.SuperGraph`1">
+            <summary>
+            Supergraph
+            </summary>
+        </member>
+        <member name="M:Ice.BO.BAQDesigner.SuperGraph`1.#ctor(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Initializes new instance of <see cref="T:Ice.BO.BAQDesigner.SuperGraph`1"/>
+            </summary>
+            <param name="items">Items of supergraph</param>
+        </member>
+        <member name="M:Ice.BO.BAQDesigner.SuperGraph`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Collections.Generic.IComparer{`0})">
+            <summary>
+            Initializes new instance of <see cref="T:Ice.BO.BAQDesigner.SuperGraph`1"/>
+            </summary>
+            <param name="items">Items of supergraph</param>
+            <param name="sortingComparer">Sorting comparer for items</param>
+        </member>
+        <member name="M:Ice.BO.BAQDesigner.SuperGraph`1.Connect(`0,`0)">
+            <summary>
+            Connects two items belonging to supergraph
+            </summary>
+        </member>
+        <member name="M:Ice.BO.BAQDesigner.SuperGraph`1.DepthFirstTraversal">
+            <summary>
+            Executes depth-first search
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesigner.SystemQuerySecurityOverride">
+            <summary>
+            Storage for association between system query and custom security code
+            </summary>
+        </member>
+        <member name="P:Ice.BO.BAQDesigner.SystemQuerySecurityOverride.QueryId">
+            <summary>
+            System query id
+            </summary>
+        </member>
+        <member name="P:Ice.BO.BAQDesigner.SystemQuerySecurityOverride.SecCodeOverride">
+            <summary>
+            Overriden value for security code
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynQueryDiagramDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ExecSettingListDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ExecSettingListDataSet.ExecSettingListDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ExecSettingListDataSet.ExecSettingValuesDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ExecSettingListDataSet.ExecSettingListRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ExecSettingListDataSet.ExecSettingValuesRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ExecSettingListDataSet.ExecSettingListRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.ExecSettingListDataSet.ExecSettingValuesRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.DynamicQueryDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryCtrlDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryCtrlValuesDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryCustomActionDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryExecuteSettingDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryParameterDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QuerySubQueryDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryRelationDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryRelationFieldDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QuerySortByDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryWhereItemDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryGroupByDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryTableDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryFieldDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryFieldAttributeDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryFunctionCallDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryUpdateFieldDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryUpdateSettingsDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryValueSetItemsDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.DynamicQueryDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryCtrlDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryCtrlValuesDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryCustomActionDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryExecuteSettingDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryParameterDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QuerySubQueryDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryRelationDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryRelationFieldDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QuerySortByDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryWhereItemDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryGroupByDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryTableDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryFieldDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryFieldAttributeDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryFunctionCallDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryUpdateFieldDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryUpdateSettingsDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryValueSetItemsDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.DynamicQueryDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryCtrlDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryCtrlValuesDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryCustomActionDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryExecuteSettingDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryParameterDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QuerySubQueryDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryRelationDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryRelationFieldDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QuerySortByDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryWhereItemDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryGroupByDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryTableDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryFieldDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryFieldAttributeDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryFunctionCallDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryUpdateFieldDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryUpdateSettingsDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerDataSet.QueryValueSetItemsDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.FullTableListDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.FullTableListDataSet.FullTableListDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.FullTableListDataSet.FullTableListRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.FullTableListDataSet.FullTableListRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerListDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerListDataSet.DynamicQueryDesignerListDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerListDataSet.DynamicQueryDesignerListRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.BAQDesignerListDataSet.DynamicQueryDesignerListRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryDiagramDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryDiagramDataSet.QueryDiagramDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryDiagramDataSet.QueryDiagramRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryDiagramDataSet.QueryDiagramRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SvcListDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SvcListDataSet.SvcListDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SvcListDataSet.SvcListRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.SvcListDataSet.SvcListRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TableFieldListDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TableFieldListDataSet.TableFieldListDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TableFieldListDataSet.TableFieldAttributeListDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TableFieldListDataSet.TableFieldListRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TableFieldListDataSet.TableFieldAttributeListRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TableFieldListDataSet.TableFieldListRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.TableFieldListDataSet.TableFieldAttributeListRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.DynamicQueryDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryCtrlDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryCtrlValuesDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryCustomActionDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryExecuteSettingDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryParameterDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QuerySubQueryDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryRelationDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryRelationFieldDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QuerySortByDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryWhereItemDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryGroupByDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryTableDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryFieldDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryFieldAttributeDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryFunctionCallDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryUpdateFieldDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryUpdateSettingsDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryValueSetItemsDesignerDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.DynamicQueryDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryCtrlDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryCtrlValuesDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryCustomActionDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryExecuteSettingDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryParameterDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QuerySubQueryDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryRelationDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryRelationFieldDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QuerySortByDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryWhereItemDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryGroupByDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryTableDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryFieldDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryFieldAttributeDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryFunctionCallDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryUpdateFieldDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryUpdateSettingsDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryValueSetItemsDesignerRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.DynamicQueryDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryCtrlDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryCtrlValuesDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryCustomActionDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryExecuteSettingDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryParameterDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QuerySubQueryDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryRelationDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryRelationFieldDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QuerySortByDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryWhereItemDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryGroupByDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryTableDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryFieldDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryFieldAttributeDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryFunctionCallDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryUpdateFieldDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryUpdateSettingsDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UpdExtBAQDesignerDataSet.QueryValueSetItemsDesignerRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UsedInBAQListDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UsedInBAQListDataSet.BAQReportListDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UsedInBAQListDataSet.DashBdBAQDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UsedInBAQListDataSet.QuickSearchBAQDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UsedInBAQListDataSet.UsedInBAQListDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UsedInBAQListDataSet.UsedInReportBAQListDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UsedInBAQListDataSet.BAQReportListRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UsedInBAQListDataSet.DashBdBAQRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UsedInBAQListDataSet.QuickSearchBAQRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UsedInBAQListDataSet.UsedInBAQListRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UsedInBAQListDataSet.UsedInReportBAQListRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UsedInBAQListDataSet.BAQReportListRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UsedInBAQListDataSet.DashBdBAQRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UsedInBAQListDataSet.QuickSearchBAQRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UsedInBAQListDataSet.UsedInBAQListRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.UsedInBAQListDataSet.UsedInReportBAQListRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.Contracts.ExtendedTableInfo">
+            <summary>
+            Extension info for table
+            </summary>
+        </member>
+        <member name="P:Ice.Contracts.ExtendedTableInfo.SchemaName">
+            <summary>
+            Extended table db schema
+            </summary>
+        </member>
+        <member name="P:Ice.Contracts.ExtendedTableInfo.DBTableName">
+            <summary>
+            Extended table db table name
+            </summary>
+        </member>
+        <member name="P:Ice.Contracts.ExtendedTableInfo.ExtensionTables">
+            <summary>
+            Extension tables for extended table
+            </summary>
+        </member>
+        <member name="T:Ice.Contracts.ExtensionTableInfo">
+            <summary>
+            Extension table info for extended table
+            </summary>
+        </member>
+        <member name="P:Ice.Contracts.ExtensionTableInfo.SystemCode">
+            <summary>
+            System code
+            </summary>
+        </member>
+        <member name="P:Ice.Contracts.ExtensionTableInfo.SchemaName">
+            <summary>
+            Table schema
+            </summary>
+        </member>
+        <member name="P:Ice.Contracts.ExtensionTableInfo.DBTableName">
+            <summary>
+            Table name
+            </summary>
+        </member>
+        <member name="P:Ice.Contracts.ExtensionTableInfo.TableType">
+            <summary>
+            Table type
+            </summary>
+        </member>
+        <member name="P:Ice.Contracts.ExtensionTableInfo.Relations">
+            <summary>
+            Relations between extension table and extended table
+            </summary>
+        </member>
+        <member name="T:Ice.Contracts.ExtensionTableRelationInfo">
+            <summary>
+            Relation between extended table and extension table
+            </summary>
+        </member>
+        <member name="P:Ice.Contracts.ExtensionTableRelationInfo.RelationID">
+            <summary>
+            Relation id
+            </summary>
+        </member>
+        <member name="P:Ice.Contracts.ExtensionTableRelationInfo.ExtensionSchemaName">
+            <summary>
+            Extension schema name
+            </summary>
+        </member>
+        <member name="P:Ice.Contracts.ExtensionTableRelationInfo.ExtensionTableName">
+            <summary>
+            Extension table name
+            </summary>
+        </member>
+        <member name="P:Ice.Contracts.ExtensionTableRelationInfo.Join">
+            <summary>
+            Join type between extended and extension tables
+            </summary>
+        </member>
+        <member name="P:Ice.Contracts.ExtensionTableRelationInfo.Columns">
+            <summary>
+            Relation fields
+            </summary>
+        </member>
+        <member name="T:Ice.Contracts.ExtensionTableRelationColumnInfo">
+            <summary>
+            Relation field
+            </summary>
+        </member>
+        <member name="P:Ice.Contracts.ExtensionTableRelationColumnInfo.ExtendedTableColumn">
+            <summary>
+            Extended table field name
+            </summary>
+        </member>
+        <member name="P:Ice.Contracts.ExtensionTableRelationColumnInfo.ExtensionTableColumn">
+            <summary>
+            Extension table field name
+            </summary>
+        </member>
+        <member name="P:Ice.Contracts.ExtensionTableRelationColumnInfo.CompOp">
+            <summary>
+            Operator
+            </summary>
+        </member>
+        <member name="T:Ice.Contracts.ExtensionTableJoin">
+            <summary>
+            Join between extended and extension tables
+            </summary>
+        </member>
+        <member name="F:Ice.Contracts.ExtensionTableJoin.Inner">
+            <summary>
+            Inner join for UD tables
+            </summary>
+        </member>
+        <member name="F:Ice.Contracts.ExtensionTableJoin.Left">
+            <summary>
+            Left join for XT and PR tables
+            </summary>
+        </member>
+        <member name="T:Ice.Contracts.BAQDesignerSvcContract">
+            <summary>
+            BAQ designer service
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetByIDEx(System.String,Ice.BO.BAQDesigner.BAQDesignerConstants.QueryRetrievalMode)">
+            <summary>
+            GetByID with Mode parameters
+            </summary>
+            <param name="queryID"></param>
+            <param name="mode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.ImportQuery(Ice.Tablesets.BAQDesignerTableset@)">
+            <summary>
+            Commits the DataSet changes to the data store by skipping rules.
+            </summary>
+            <param name="ds">The full DataSet.</param>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.DeleteByCompanyAndID(System.String,System.String)">
+            <summary>
+            delete specified query from specified company
+            </summary>
+            <param name="company">Company ID</param>
+            <param name="queryID">Query ID</param>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetUsedInBAQList(System.String,System.Boolean)">
+            <summary>
+            Get lists  where specified query is used
+            </summary>
+            <param name="queryID">The Query(Exports) ID</param>
+            <param name="isGlobalQuery">isGlobalQuery</param>
+            <returns>Returns UsedInBAQListDataSet dataset</returns>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetTableList">
+            <summary>
+            Get full list of tables from zDataTable for palette and code editor
+            </summary>
+            <returns>Returns list from zDataTable</returns>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetFieldList(System.String,System.String)">
+            <summary>
+            select physical columns info from db and z-tables
+            </summary>
+            <param name="dataTableID"></param>
+            <param name="schema"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetZTableInfo(System.String,System.String,System.String@)">
+            <summary>
+            Get table information(description) from z-data
+            </summary>
+            <param name="dbTableName">DB Table Name</param>
+            <param name="schema">DB schema (systemCode)</param>
+            <param name="description">description in ZDataTable (first for this DBTableName?)</param>
+            <returns>true if this information found</returns>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetDBTableNameByTableID(System.String,System.String,System.String@)">
+            <summary>
+            Get table database name from z-data
+            </summary>
+            <param name="dataTableID">DataTableID</param>
+            <param name="systemCode">DB schema (systemCode)</param>
+            <param name="dbTableName">DBTableName in ZDataTable for this DataTableID</param>
+            <returns>true if this information found</returns>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetBOTableFieldList(System.String,System.String)">
+            <summary>
+            Select BO table info from z-tables
+            </summary>
+            <param name="dataTableID"></param>
+            <param name="schema"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetExecutionSettings">
+            <summary>
+            Execution settings supported by the dynamic query
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetSvcList">
+             <summary>
+            
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.LoadQueryDiagram(System.String,System.String)">
+            <summary>
+            This method returns serialized query diagram
+            </summary>
+            <param name="queryID">The Query(QueryHdr) ID</param>
+            <param name="companyID">The Company) ID</param>
+            <returns>Returns the dataset with diagram</returns>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.DeleteQueryDiagram(System.String,System.String,System.String)">
+            <summary>
+            This method returns serialized query diagram
+            </summary>
+            <param name="queryID">The Query(QueryHdr) ID</param>
+            <param name="companyID">The Company) ID</param>
+            <param name="userID">The User ID</param>
+            <returns>Returns the dataset with diagram</returns>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.SaveQueryDiagram(Ice.Tablesets.QueryDiagramTableset@)">
+            <summary>
+            This method saves SOAP-serialized query diagram
+            </summary>
+            <param name="ds">The dataset representing the current diagram</param>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.ValidateQueryID(System.String,System.String,System.String@,System.String@,System.String@,System.Boolean@,System.Boolean@,System.Boolean@,System.Boolean@,System.String@)">
+            <summary>
+            Check if query name entered is valid
+            </summary>
+            <param name="queryID">The proposed Query ID</param>
+            <param name="companyID">The company where to search query</param>
+            <param name="foundQueryID">ID of found query</param>
+            <param name="foundCompanyID">ID of found query's company</param>
+            <param name="authorID">The User ID, who created query</param>
+            <param name="isShared">Is found query shared</param>
+            <param name="isExternal">Is found query external</param>
+            <param name="isSystem">Is found query system</param>
+            <param name="isGlobal">Is found query global</param>
+            <param name="secCode">Query security code</param>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetQueryCompanyLists(System.String,System.String@,System.String@)">
+            <summary>
+            Check if company can be made global - no such query ids in other companies
+            </summary>
+            <param name="queryID">query id to check</param>
+            <param name="globalInCompany">id of company where this query exists as global</param>
+            <param name="localInCompanies">~ separated companies where this query already exists as local</param>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.AvailableCGCCodes(System.Boolean)">
+            <summary>
+            Country codes available for company
+            </summary>
+            <param name="crossCompany"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.PossibleBONames(System.String,System.String@)">
+            <summary>
+            returns list of BOs where query tables are used
+            </summary>
+            <param name="tableNames">comma delimeted table name list</param>
+            <param name="boNames">comma delimeted BO name list</param>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetBOTableList(System.String,System.String@)">
+            <summary>
+            This method returns the list of tables, belonging to specified business object
+            </summary>
+            <param name="boName">Business Object Name in form SystemCode.BOName</param>
+            <param name="topTableID">comma delimeted BO name list</param>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.UpdateQuerySecurityFilters(Ice.Tablesets.BAQDesignerTableset)">
+            <summary>
+            Updates security filters for provided query
+            </summary>
+            <param name="queryTableSet">Tableset with query definition</param>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.UpdateQueriesSecurityFiltersByDs(System.String,System.String)">
+            <summary>
+            Iterates through each query refers to specified External Datasource or to any of External Datasources linked to specified External Datasource types
+            and updates security filters
+            </summary>
+            <param name="extDsName">ID of External Datasource or empty string if next param value is specified</param>
+            <param name="extDsTypeName">ID of External Datasource Type or empty string if first param value specified</param>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.RegenUpdatableQueryBpm(System.String,System.String)">
+            <summary>
+            Regenerate Updatable Query Bpm code
+            </summary>
+            <param name="companyID"></param>
+            <param name="queryID"></param>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.FillDisplayFieldAttributes(System.String,System.String)">
+            <summary>
+            Fills attributes for display fields in query if field properties like FieldLabel differ from system settings.
+            Method is used by query import and BAQUpgrade routine
+            </summary>
+            <param name="companyID"></param>
+            <param name="queryID"></param>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GenerateASP(System.String,System.String,Ice.Tablesets.AspExportFieldTableset)">
+            <summary>
+            Generate Asp file
+            </summary>
+            <param name="pcQueryID"></param>
+            <param name="pcFilename"></param>
+            <param name="ds"></param>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetASPFields(System.String)">
+            <summary>
+            Get  Fields list for Asp
+            </summary>
+            <param name="pcQueryID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.CheckSecurityCodeForCurrentCompany(System.String,System.Boolean@,System.Boolean@)">
+            <summary>
+            Check query security code for the current company
+            </summary>
+            <param name="secCode"></param>
+            <param name="isSecCodeExists"></param>
+            <param name="isSecCodeAvailable"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetTableExtensions(System.String,System.String)">
+            <summary>
+            Return extension tables for table <paramref name="schemaName"/>.<paramref name="dbTableName"/>
+            </summary>
+            <param name="schemaName">Extended table schema</param>
+            <param name="dbTableName">Extended table db name</param>
+            <returns>Extension tables for extended table</returns>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.SetSecurityCodeToSystemQuery(System.String,System.String)">
+            <summary>
+            Overrides security code assigned to system query with passed security code.
+            System query should exists. If ordinal query found by specified id or nothing found then exception is raised.
+            Security code should exists. If security code is not found then exception is raised.
+            </summary>
+            <param name="queryId">Id of system query</param>
+            <param name="secCode">Security code</param>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetNewDynamicQueryDesigner(Ice.Tablesets.BAQDesignerTableset@)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetNewQueryCtrlDesigner(Ice.Tablesets.BAQDesignerTableset@,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetNewQueryCtrlValuesDesigner(Ice.Tablesets.BAQDesignerTableset@,System.String,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetNewQueryCustomActionDesigner(Ice.Tablesets.BAQDesignerTableset@,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetNewQueryExecuteSettingDesigner(Ice.Tablesets.BAQDesignerTableset@,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetNewQueryParameterDesigner(Ice.Tablesets.BAQDesignerTableset@,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetNewQuerySubQueryDesigner(Ice.Tablesets.BAQDesignerTableset@,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetNewQueryRelationDesigner(Ice.Tablesets.BAQDesignerTableset@,System.String,System.Guid)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetNewQueryRelationFieldDesigner(Ice.Tablesets.BAQDesignerTableset@,System.String,System.Guid,System.Guid)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetNewQuerySortByDesigner(Ice.Tablesets.BAQDesignerTableset@,System.String,System.Guid,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetNewQueryWhereItemDesigner(Ice.Tablesets.BAQDesignerTableset@,System.String,System.Guid,System.String,System.Guid)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetNewQueryGroupByDesigner(Ice.Tablesets.BAQDesignerTableset@,System.String,System.Guid)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetNewQueryTableDesigner(Ice.Tablesets.BAQDesignerTableset@,System.String,System.Guid)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetNewQueryFieldDesigner(Ice.Tablesets.BAQDesignerTableset@,System.String,System.Guid,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetNewQueryFieldAttributeDesigner(Ice.Tablesets.BAQDesignerTableset@,System.String,System.Guid,System.String,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetNewQueryFunctionCallDesigner(Ice.Tablesets.BAQDesignerTableset@,System.String,System.Guid,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetNewQueryUpdateFieldDesigner(Ice.Tablesets.BAQDesignerTableset@,System.String,System.String,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetNewQueryUpdateSettingsDesigner(Ice.Tablesets.BAQDesignerTableset@)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetNewQueryValueSetItemsDesigner(Ice.Tablesets.BAQDesignerTableset@,System.String,System.String)">
+            <summary>
+            Inserts a new row in the DataSet with defaults populated.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.DeleteByID(System.String)">
+            <summary>
+            Deletes a row given its ID.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetByID(System.String)">
+            <summary>
+            Returns a DataSet given the primary key.
+            </summary>
+            <returns>The DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetList(System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Returns a list of rows that satisfy the where clause.
+            </summary>
+            <param name="whereClause">An expression used to filter the rows. Can be left blank for all rows.</param>
+            <param name="pageSize">The maximum number of rows to return. Leave as zero for no maximum.</param>
+            <param name="absolutePage">Page of rows to return.</param>
+            <param name="morePages">Whether there are more pages of rows available.</param>
+            <returns>The list DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetRows(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            Returns a dataset containing all rows that satisfy the where clauses.
+            </summary>
+            <returns>The full DataSet.</returns>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetBySysRowID(System.Guid)">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.GetBySysRowIDs(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.Update(Ice.Tablesets.BAQDesignerTableset@)">
+            <summary>
+            Commits the DataSet changes to the data store.
+            </summary>
+            <param name="ds">The full DataSet.</param>
+        </member>
+        <member name="M:Ice.Contracts.BAQDesignerSvcContract.UpdateExt(Ice.Tablesets.UpdExtBAQDesignerTableset@,System.Boolean,System.Boolean,System.Boolean@)">
+            <summary>
+            Apply input data to BO by calling GetByID/GetNew/Update methods.
+            </summary>
+            <returns>The dataset with list of errors occurred during update process.</returns>
+        </member>
+        <member name="P:Ice.Tablesets.AspExportFieldRow.QueryID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AspExportFieldRow.Seq">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AspExportFieldRow.FieldName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AspExportFieldRow.Description">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AspExportFieldRow.FieldFormat">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AspExportFieldRow.FieldLabel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AspExportFieldRow.FieldOrder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AspExportFieldRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AspExportFieldRow.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AspExportFieldRow.FieldSearch">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AspExportFieldRow.SearchOptions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AspExportFieldRow.ShowField">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AspExportFieldRow.SearchField">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AspExportFieldRow.IsNumeric">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AspExportFieldRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.AspExportFieldRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.BAQBOtablesRow.DataTableID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.BAQBOtablesRow.ParentTableID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.BAQBOtablesRow.TableType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.BAQBOtablesRow.SystemCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.BAQBOtablesRow.DBTableName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.BAQBOtablesRow.SysRowID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.BAQBOtablesRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.BAQBOtablesRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.AuthorID">
+            <summary>
+            AuthorID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.DisplayPhrase">
+            <summary>
+            DisplayPhrase
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.IsShared">
+            <summary>
+            IsShared
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.Version">
+            <summary>
+            Version
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.CGCCode">
+            <summary>
+            CGCCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.XCompany">
+            <summary>
+            XCompany
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.GlbCompany">
+            <summary>
+            GlbCompany
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.Updatable">
+            <summary>
+            Updatable
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.ExtQuery">
+            <summary>
+            ExtQuery
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.ExtDatasourceName">
+            <summary>
+            ExtDatasourceName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.Extension">
+            <summary>
+            Extension
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.SysRevID">
+            <summary>
+            SysRevID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.SysRowID">
+            <summary>
+            SysRowID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.SecCode">
+            <summary>
+            SecCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.BPMUpdateOnly">
+            <summary>
+            true if update through BO is not used
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.AllCompanies">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlDesignerRow.Company">
+            <summary>
+            Company Code
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlDesignerRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlDesignerRow.ControlID">
+            <summary>
+            GUID for control
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlDesignerRow.DataSource">
+            <summary>
+            Data Source
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlDesignerRow.DataType">
+            <summary>
+            Data Type
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlDesignerRow.FieldFormat">
+            <summary>
+            Field Format
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlDesignerRow.IsMandatory">
+            <summary>
+            Mandatory flag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlDesignerRow.DefaultValue">
+            <summary>
+            Default Value
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlDesignerRow.ControlType">
+             <summary>
+             One of predefined constants:
+            Standard ? free type editor/date picker, depend on DataType.
+            RadioSet ? radio button set. Items are specified in QueryCtrlValues table
+            DropDown ? dropdown list. Items are specified in QueryCtrlValues table
+            DropDownBAQ ? dropdown list. Information are stored in QueryCtrlValues table with tree rows with Ids:BAQID, BAQDisplayColumn, BAQValueColumn
+            DropDownUserCodes - dropdown list. Information are stored in QueryCtrlValues table with one row with Id = UserCodeTypeID
+            
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlDesignerRow.SourceType">
+            <summary>
+            Type of the datasource 0 - updatable field, 1 - parameter
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlDesignerRow.ListSource">
+            <summary>
+            ListSource
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlDesignerRow.DisplayColumn">
+            <summary>
+            DisplayColumn
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlDesignerRow.ValueColumn">
+            <summary>
+            ValueColumn
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlDesignerRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlDesignerRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlDesignerRow.Seq">
+            <summary>
+            Seq
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlDesignerRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlDesignerRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlDesignerRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlValuesDesignerRow.Company">
+            <summary>
+            Company Code
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlValuesDesignerRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlValuesDesignerRow.ControlID">
+            <summary>
+            GUID for control
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlValuesDesignerRow.ID">
+            <summary>
+            Id pof value record
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlValuesDesignerRow.Val">
+            <summary>
+            Value
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlValuesDesignerRow.Seq">
+            <summary>
+            Sequence number
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlValuesDesignerRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlValuesDesignerRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlValuesDesignerRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlValuesDesignerRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlValuesDesignerRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCustomActionDesignerRow.Company">
+            <summary>
+            Company Code
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCustomActionDesignerRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCustomActionDesignerRow.ActionID">
+            <summary>
+            Action ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCustomActionDesignerRow.ActionLabel">
+            <summary>
+            Displayble text for the action
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCustomActionDesignerRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCustomActionDesignerRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCustomActionDesignerRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCustomActionDesignerRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCustomActionDesignerRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryExecuteSettingDesignerRow.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryExecuteSettingDesignerRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryExecuteSettingDesignerRow.SettingID">
+            <summary>
+            SettingID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryExecuteSettingDesignerRow.SettingValue">
+            <summary>
+            SettingValue
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryExecuteSettingDesignerRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryExecuteSettingDesignerRow.SysRevID">
+            <summary>
+            SysRevID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryExecuteSettingDesignerRow.SysRowID">
+            <summary>
+            SysRowID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryExecuteSettingDesignerRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryExecuteSettingDesignerRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryExecuteSettingDesignerRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryParameterDesignerRow.Company">
+            <summary>
+            Company Code
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryParameterDesignerRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryParameterDesignerRow.ParameterID">
+            <summary>
+            ParameterID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryParameterDesignerRow.ParameterType">
+            <summary>
+            Data type of the parameter
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryParameterDesignerRow.ParameterLabel">
+            <summary>
+            ParameterLabel
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryParameterDesignerRow.SkipIfEmpty">
+            <summary>
+            Skip condition of parameter is not set
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryParameterDesignerRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryParameterDesignerRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryParameterDesignerRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryParameterDesignerRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryParameterDesignerRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryDesignerRow.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryDesignerRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryDesignerRow.SubQueryID">
+            <summary>
+            SubQueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryDesignerRow.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryDesignerRow.Type">
+            <summary>
+            Type
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryDesignerRow.Seq">
+            <summary>
+            Seq
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryDesignerRow.IsUnion">
+            <summary>
+            IsUnion
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryDesignerRow.LeftP">
+            <summary>
+            LeftP
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryDesignerRow.RightP">
+            <summary>
+            RightP
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryDesignerRow.SelectListClause">
+            <summary>
+            SelectListClause
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryDesignerRow.TopRowExpr">
+            <summary>
+            TopRowExpr
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryDesignerRow.TopInPercent">
+            <summary>
+            TopInPercent
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryDesignerRow.TopWithTies">
+            <summary>
+            TopWithTies
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryDesignerRow.SysRevID">
+            <summary>
+            SysRevID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryDesignerRow.SysRowID">
+            <summary>
+            SysRowID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryDesignerRow.OrderByOffSet">
+            <summary>
+            OrderByOffSet
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryDesignerRow.OrderByFetch">
+            <summary>
+            OrderByFetch
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryDesignerRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryDesignerRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryDesignerRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationDesignerRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationDesignerRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationDesignerRow.SubQueryID">
+            <summary>
+            SubQueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationDesignerRow.RelationID">
+            <summary>
+            Query Relation ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationDesignerRow.IsFK">
+            <summary>
+            IsFK
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationDesignerRow.ParentTableID">
+            <summary>
+            ParentTableID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationDesignerRow.ChildTableID">
+            <summary>
+            ChildTableID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationDesignerRow.JoinType">
+            <summary>
+            "Outer" = outer-join, "" = inner-join
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationDesignerRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationDesignerRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationDesignerRow.OuterJoin">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationDesignerRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationDesignerRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationDesignerRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldDesignerRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldDesignerRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldDesignerRow.SubQueryID">
+            <summary>
+            SubQueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldDesignerRow.RelationID">
+            <summary>
+            Query Relation ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldDesignerRow.Seq">
+            <summary>
+            Sequence Number
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldDesignerRow.ParentFieldName">
+            <summary>
+            Parent Field Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldDesignerRow.ParentFieldDataType">
+            <summary>
+            ParentFieldDataType
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldDesignerRow.ParentFieldIsExpr">
+            <summary>
+            ParentFieldIsExpr
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldDesignerRow.ChildFieldName">
+            <summary>
+            Child Field Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldDesignerRow.ChildFieldDataType">
+            <summary>
+            ChildFieldDataType
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldDesignerRow.ChildFieldIsExpr">
+            <summary>
+            ChildFieldIsExpr
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldDesignerRow.AndOr">
+            <summary>
+            AndOr
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldDesignerRow.Neg">
+            <summary>
+            Neg
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldDesignerRow.LeftP">
+            <summary>
+            LeftP
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldDesignerRow.RightP">
+            <summary>
+            RightP
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldDesignerRow.CompOp">
+            <summary>
+            CompOp
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldDesignerRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldDesignerRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldDesignerRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldDesignerRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldDesignerRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByDesignerRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByDesignerRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByDesignerRow.SubQueryID">
+            <summary>
+            SubQueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByDesignerRow.TableID">
+            <summary>
+            TableID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByDesignerRow.FieldName">
+            <summary>
+            Field Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByDesignerRow.Seq">
+            <summary>
+            Sequence Number
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByDesignerRow.IsAsc">
+            <summary>
+            IsAsc
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByDesignerRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByDesignerRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByDesignerRow.DisplayName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByDesignerRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByDesignerRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByDesignerRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.SubQueryID">
+            <summary>
+            SubQueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.TableID">
+            <summary>
+            TableID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.CriteriaID">
+            <summary>
+            CriteriaID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.Seq">
+            <summary>
+            Sequence Number
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.FieldName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.DataType">
+            <summary>
+            DataType
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.CompOp">
+            <summary>
+            Operator to use for relation between left value and right value.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.AndOr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.Neg">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.LeftP">
+            <summary>
+            LeftP
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.RightP">
+            <summary>
+            RightP
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.IsConst">
+            <summary>
+            Indicates that the ChildField is a contant rather than a database field.  Example: Relationships to Reason requires a reasontype which would be entered as a constant.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.CriteriaType">
+            <summary>
+            CriteriaType
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.UseHaving">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.ToTableID">
+            <summary>
+            ToTableID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.ToFieldName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.ToDataType">
+            <summary>
+            ToDataType
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.RValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.ExtSecurity">
+            <summary>
+            ExtSecurity
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemDesignerRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByDesignerRow.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByDesignerRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByDesignerRow.SubQueryID">
+            <summary>
+            SubQueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByDesignerRow.GroupByID">
+            <summary>
+            GroupByID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByDesignerRow.Expression">
+            <summary>
+            Expression
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByDesignerRow.Seq">
+            <summary>
+            Seq
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByDesignerRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByDesignerRow.SysRevID">
+            <summary>
+            SysRevID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByDesignerRow.SysRowID">
+            <summary>
+            SysRowID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByDesignerRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByDesignerRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByDesignerRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableDesignerRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableDesignerRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableDesignerRow.SubQueryID">
+            <summary>
+            SubQueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableDesignerRow.TableID">
+            <summary>
+            TableID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableDesignerRow.Seq">
+            <summary>
+            Sequence Number
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableDesignerRow.DBSchemaName">
+            <summary>
+            DBSchemaName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableDesignerRow.DBTableName">
+            <summary>
+            Database Table Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableDesignerRow.TableType">
+            <summary>
+            TableType
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableDesignerRow.IsSummaryTable">
+            <summary>
+            Summary Table flag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableDesignerRow.IsVisibleInDesigner">
+            <summary>
+            IsVisibleInDesigner
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableDesignerRow.Modifiers">
+            <summary>
+            Modifiers
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableDesignerRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableDesignerRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableDesignerRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableDesignerRow.PivotFunction">
+            <summary>
+            PivotFunction
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableDesignerRow.PivotDataType">
+            <summary>
+            PivotDataType
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableDesignerRow.PivotFieldFormat">
+            <summary>
+            PivotFieldFormat
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableDesignerRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableDesignerRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableDesignerRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.SubQueryID">
+            <summary>
+            SubQueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.TableID">
+            <summary>
+            TableID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.FieldName">
+            <summary>
+            Field Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.Seq">
+            <summary>
+            Sequence
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.DBSchemaName">
+            <summary>
+            DBSchemaName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.DBTableName">
+            <summary>
+            Database Table Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.DBFieldName">
+            <summary>
+            Database Field Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.DataType">
+            <summary>
+            Data Type
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.External">
+            <summary>
+            External
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.IsCalculated">
+            <summary>
+            IsCalculated
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.Formula">
+            <summary>
+            Formula
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.FieldFormat">
+            <summary>
+            Field Format
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.FieldLabel">
+            <summary>
+            Field Label
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.LikeDataFieldTableID">
+            <summary>
+            TableID to use with LikeField
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.LikeDataFieldSeq">
+            <summary>
+            Like Data Field Sequence
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.Aggregation">
+            <summary>
+            Aggregation
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.IsGroupBy">
+            <summary>
+            IsGroupBy
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.UseLike">
+            <summary>
+            Use Like
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.LikeDataFieldName">
+            <summary>
+            Like Data Field Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.Updatable">
+            <summary>
+            Wheither field can be updated
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.RaiseEvent">
+            <summary>
+            Raise event on update
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.QuickSearchID">
+            <summary>
+            ID of Quick Search assigned to this query field
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.DropDown">
+            <summary>
+            This flag tells whether this display field is used as source of distinct values for drop down list in IW
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.UpdInitExpression">
+            <summary>
+            Initial expression for updatable field, filled on UBAQ.GetNew
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.Alias">
+            <summary>
+            Alias
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.IsRequired">
+            <summary>
+            IsRequired
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.IsReadOnly">
+            <summary>
+            IsReadOnly
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.DefaultValue">
+            <summary>
+            DefaultValue
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.SubquerySet_Alias">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.SubquerySet_DataType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldDesignerRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeDesignerRow.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeDesignerRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeDesignerRow.SubQueryID">
+            <summary>
+            SubQueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeDesignerRow.TableID">
+            <summary>
+            TableID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeDesignerRow.FieldName">
+            <summary>
+            FieldName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeDesignerRow.AttributeName">
+            <summary>
+            AttributeName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeDesignerRow.Value">
+            <summary>
+            Value
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeDesignerRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeDesignerRow.SysRevID">
+            <summary>
+            SysRevID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeDesignerRow.SysRowID">
+            <summary>
+            SysRowID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeDesignerRow.IsOverriden">
+            <summary>
+            Flags whether the attribute was changed by user
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeDesignerRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeDesignerRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeDesignerRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallDesignerRow.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallDesignerRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallDesignerRow.SubQueryID">
+            <summary>
+            SubQueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallDesignerRow.FunctionID">
+            <summary>
+            FunctionID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallDesignerRow.ParameterName">
+            <summary>
+            ParameterName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallDesignerRow.Seq">
+            <summary>
+            Seq
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallDesignerRow.Value">
+            <summary>
+            Value
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallDesignerRow.DataType">
+            <summary>
+            DataType
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallDesignerRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallDesignerRow.SysRevID">
+            <summary>
+            SysRevID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallDesignerRow.SysRowID">
+            <summary>
+            SysRowID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallDesignerRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallDesignerRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallDesignerRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldDesignerRow.Company">
+            <summary>
+            Company Code
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldDesignerRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldDesignerRow.MapTableName">
+            <summary>
+            MapTableName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldDesignerRow.MapFieldName">
+            <summary>
+            MapFieldName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldDesignerRow.Direction">
+            <summary>
+            Direction
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldDesignerRow.Expression">
+            <summary>
+            Expression
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldDesignerRow.IsKeyField">
+            <summary>
+            IsKeyField
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldDesignerRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldDesignerRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldDesignerRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldDesignerRow.NetDataType">
+            <summary>
+            NetDataType
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldDesignerRow.Description">
+            <summary>
+            Shows field description - taken from zDataField
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldDesignerRow.QualifiedName">
+            <summary>
+            DBTableName + "." + DBFieldName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldDesignerRow.Required">
+            <summary>
+            Shows if field is required - taken from zDataField
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldDesignerRow.DataType">
+            <summary>
+            Shows field data type - taken from zDataField
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldDesignerRow.NullableType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldDesignerRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldDesignerRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldDesignerRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsDesignerRow.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsDesignerRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsDesignerRow.AllowAddNew">
+            <summary>
+            AllowAddNew
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsDesignerRow.AddNewLabel">
+            <summary>
+            AddNewLabel
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsDesignerRow.SupportMDR">
+            <summary>
+            SupportMDR
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsDesignerRow.UpdatableType">
+            <summary>
+            UpdatableType
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsDesignerRow.UpdatableBO">
+            <summary>
+            UpdatableBO
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsDesignerRow.BOSystemCode">
+            <summary>
+            BOSystemCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsDesignerRow.UpdateMethod">
+            <summary>
+            UpdateMethod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsDesignerRow.SCUrl">
+            <summary>
+            SCUrl
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsDesignerRow.SCWorkflow">
+            <summary>
+            SCWorkflow
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsDesignerRow.SCCtxUser">
+            <summary>
+            SCCtxUser
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsDesignerRow.SCCtxPwd">
+            <summary>
+            SCCtxPwd
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsDesignerRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsDesignerRow.SysRevID">
+            <summary>
+            SysRevID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsDesignerRow.SysRowID">
+            <summary>
+            SysRowID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsDesignerRow.SCUserID">
+            <summary>
+            SCUserID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsDesignerRow.SCPassword">
+            <summary>
+            SCPassword
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsDesignerRow.SCCtxUrl">
+            <summary>
+            SCCtxUrl
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsDesignerRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsDesignerRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsDesignerRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryValueSetItemsDesignerRow.Company">
+            <summary>
+            Company Code
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryValueSetItemsDesignerRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryValueSetItemsDesignerRow.ValueSetID">
+            <summary>
+            ID of set of values. Is referenced by QueryWhereItem record for example.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryValueSetItemsDesignerRow.ItemValue">
+            <summary>
+            Item Value
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryValueSetItemsDesignerRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryValueSetItemsDesignerRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryValueSetItemsDesignerRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryValueSetItemsDesignerRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryValueSetItemsDesignerRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerListRow.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerListRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerListRow.AuthorID">
+            <summary>
+            AuthorID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerListRow.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerListRow.IsShared">
+            <summary>
+            IsShared
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerListRow.CGCCode">
+            <summary>
+            CGCCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerListRow.XCompany">
+            <summary>
+            XCompany
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerListRow.Updatable">
+            <summary>
+            Updatable
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerListRow.ExtQuery">
+            <summary>
+            ExtQuery
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerListRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerListRow.SysRowID">
+            <summary>
+            SysRowID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerListRow.AllCompanies">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerListRow.SecCode">
+            <summary>
+            SecCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerListRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryDesignerListRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecSettingListRow.SettingID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecSettingListRow.SettingType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecSettingListRow.DefaultValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecSettingListRow.Required">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecSettingListRow.IsEnum">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecSettingListRow.Description">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecSettingListRow.Category">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecSettingListRow.SysRowID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecSettingListRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecSettingListRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecSettingValuesRow.SettingID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecSettingValuesRow.SettingEnumValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecSettingValuesRow.SettingValueOrder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecSettingValuesRow.SysRowID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecSettingValuesRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecSettingValuesRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.FullTableListRow.TableID">
+            <summary>
+            DataTableID from zDataTable
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.FullTableListRow.Description">
+            <summary>
+            Description from zDataTable
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.FullTableListRow.TableType">
+            <summary>
+            DB = Database, TT = Temp Table from ZDataTable
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.FullTableListRow.DBSchemaName">
+            <summary>
+            Db Schema of the Database table from Ice.Table view 
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.FullTableListRow.FullTableName">
+            <summary>
+            Db Schema of the Database table 
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.FullTableListRow.SysRowID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.FullTableListRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.FullTableListRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryDiagramRow.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryDiagramRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryDiagramRow.SubQueryID">
+            <summary>
+            SubQueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryDiagramRow.Seq">
+            <summary>
+            Seq
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryDiagramRow.Data">
+            <summary>
+            Data
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryDiagramRow.SysRevID">
+            <summary>
+            SysRevID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryDiagramRow.SysRowID">
+            <summary>
+            SysRowID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryDiagramRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryDiagramRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SvcListRow.SvcName">
+            <summary>
+            ClassName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SvcListRow.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SvcListRow.SystemCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SvcListRow.SysRowID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SvcListRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.SvcListRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.DataTableID">
+            <summary>
+            DataTable ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.FieldName">
+            <summary>
+            Field Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.Seq">
+            <summary>
+            Sequence
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.DBSchemaName">
+            <summary>
+            Database Schema Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.DBTableName">
+            <summary>
+            Database Table Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.DBFieldName">
+            <summary>
+            Database Field Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.DataType">
+            <summary>
+            Data Type
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.DefaultValue">
+            <summary>
+            Default Value
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.Required">
+            <summary>
+            Required
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.ReadOnly">
+            <summary>
+            Read Only
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.External">
+            <summary>
+            External
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.Formula">
+            <summary>
+            Formula
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.Included">
+            <summary>
+            Included
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.FieldFormat">
+            <summary>
+            Field Format
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.FieldLabel">
+            <summary>
+            Field Label
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.LikeDataFieldTableID">
+            <summary>
+            TableID to use with LikeField
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.LikeDataFieldName">
+            <summary>
+            Like Data Fiel Name reference
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.IsNullable">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.CGCCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.BizType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.PredictiveSearch">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.CurrencyCodeColumn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.CurrencyType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.CurrencySource">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.SysRowID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldListRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldAttributeListRow.TableID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldAttributeListRow.FieldName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldAttributeListRow.AttributeName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldAttributeListRow.AttributeValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldAttributeListRow.SysRowID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldAttributeListRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.TableFieldAttributeListRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.BAQReportListRow.BAQRptID">
+            <summary>
+            BAQ Report ID, the unique identifier for this report within the company
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.BAQReportListRow.Description">
+            <summary>
+            Description 
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.BAQReportListRow.ReportTitle">
+            <summary>
+            Title for this report
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.BAQReportListRow.ExportID">
+             <summary>
+             The unique export identifier.
+            
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.BAQReportListRow.SystemFlag">
+            <summary>
+            Indicates the report is a system deliver report.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.BAQReportListRow.GlobalReport">
+            <summary>
+            true if this report is available to all companies
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.BAQReportListRow.CGCCode">
+            <summary>
+            Country Group Code / Country Code for CSF
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.BAQReportListRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.BAQReportListRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.BAQReportListRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.BAQReportListRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DashBdBAQRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DashBdBAQRow.ProductID">
+            <summary>
+            VN - Vantage, VS - Vista
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DashBdBAQRow.GlbCompany">
+            <summary>
+            Global Company identifier.  Used in identify from whch company this BAQ originated.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DashBdBAQRow.DefinitionID">
+            <summary>
+            Dashboard Definition ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DashBdBAQRow.QueryID">
+            <summary>
+            Query ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DashBdBAQRow.CGCCode">
+            <summary>
+            Country Group / Country Code for CSF
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DashBdBAQRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DashBdBAQRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DashBdBAQRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DashBdBAQRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchBAQRow.Company">
+            <summary>
+            Company Identifier. If blank then this quick search is for all companies.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchBAQRow.QuickSearchID">
+            <summary>
+            The unique identifier for this quick search
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchBAQRow.GlbCompany">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchBAQRow.Description">
+            <summary>
+            Description 
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchBAQRow.ExportID">
+             <summary>
+             The unique export identifier.
+            
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchBAQRow.GlobalSearch">
+            <summary>
+            true if this search is available to all fields that have the same like table/field.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchBAQRow.IsShared">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchBAQRow.SystemFlag">
+            <summary>
+            Used for indicating this quick search is provided by system, not by an end user.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchBAQRow.CGCCode">
+            <summary>
+            Country Group Code / Country Code for CSF
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchBAQRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchBAQRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchBAQRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuickSearchBAQRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInBAQListRow.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInBAQListRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInBAQListRow.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInBAQListRow.IsGlobal">
+            <summary>
+            IsGlobal
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInBAQListRow.IsShared">
+            <summary>
+            IsShared
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInBAQListRow.CGCCode">
+            <summary>
+            CGCCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInBAQListRow.GlbCompany">
+            <summary>
+            GlbCompany
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInBAQListRow.ExtQuery">
+            <summary>
+            ExtQuery
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInBAQListRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInBAQListRow.SysRevID">
+            <summary>
+            SysRevID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInBAQListRow.SysRowID">
+            <summary>
+            SysRowID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInBAQListRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInBAQListRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInReportBAQListRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInReportBAQListRow.RptDefID">
+            <summary>
+            Report Data Definition ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInReportBAQListRow.RptTypeID">
+            <summary>
+            The Report Type similar to the one set in the Report Styles, that will help to identify which report type is this data definition intended for.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInReportBAQListRow.CGCCode">
+            <summary>
+            Country Group Code / Country Code for CSF
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInReportBAQListRow.RptDescription">
+            <summary>
+            Report Data Definition Description
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInReportBAQListRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInReportBAQListRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInReportBAQListRow.CompanyVisibility">
+            <summary>
+            CompanyVisibility
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInReportBAQListRow.SystemRpt">
+             <summary>
+             Indicates if this is a base system report data defintion. System report data defintions  can not be modified by users. This defintion corresponds to the base report programs (@ Crystal.rpt)
+            If the user requires modification they can make a duplicate and make the necessary changes to that version.
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInReportBAQListRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInReportBAQListRow.Global">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInReportBAQListRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.UsedInReportBAQListRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+    </members>
+</doc>

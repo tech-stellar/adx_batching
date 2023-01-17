@@ -1,0 +1,567 @@
+c:\users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\APM_BtcPlant.exe.config
+c:\users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\APM_BtcPlant.exe
+c:\users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\APM_BtcPlant.pdb
+c:\users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.csprojResolveAssemblyReference.cache
+c:\users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.frmBtcPltMain.resources
+c:\users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.Properties.Resources.resources
+c:\users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.csproj.GenerateResource.Cache
+c:\users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.exe
+c:\users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.pdb
+c:\users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.frmBtcPltCfg.resources
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Common.ContractInterfaces.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Core.Session.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Epicor.ServiceModel.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.Lib.SessionMod.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.Deployment.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.Lib.BOReader.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.UserFile.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.Cryptography.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.AppSettingsHandler.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Epicor.Ice.Version.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Epicor.App.Version.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Epicor.ServiceModel.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Adapters.UD38.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.UD38.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Core.Version.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.EpiClientLib.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.EpiResourceLib.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.v12.2.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinToolbars.v12.2.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinDock.v12.2.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.UserTracing.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGrid.v12.2.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinTabControl.v12.2.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.BroadcastTower.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinListView.v12.2.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.ClientPlugins.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.SysTag.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.Menu.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinStatusBar.v12.2.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.NamedSearch.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.QuickSearch.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.Help.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.About.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinEditors.v12.2.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.PredictiveSearch.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinChart.v12.2.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.Lib.ClassAttribute.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.Sec.SecRights.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Epicor.Ice.Shared.Social.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.ZDataTable.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Epicor.Social.DataContracts.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.Custom.CodeEditLib.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.GenXData.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinTree.v12.2.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\VisualStudioDebugHelper.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.Attachment.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.Company.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Documents.Excel.v12.2.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGrid.ExcelExport.v12.2.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinMaskedEdit.v12.2.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.DynamicQuery.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinSchedule.v12.2.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinDataSource.v12.2.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinExplorerBar.v12.2.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Shared.v12.2.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.Misc.v12.2.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinSpellChecker.v12.2.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.AppStylistSupport.v12.2.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinPrintPreviewDialog.v12.2.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.BAQDesigner.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.FileTransfer.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.ExcelReader.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGauge.v12.2.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.DocStarAttachment.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.SharepointHelper.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.SysConfig.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.Lib.ClientCache.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.GlobalStrings.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.Logon.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.RestrictedLicenseLib.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.LangTran.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.Annotation.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.LangName.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Syncfusion.Edit.Windows.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Syncfusion.Shared.Base.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.IFileTransfer.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.Lib.FileTransfer.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.UI.ServiceInterop.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.Hosting.DataContracts.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.DataContracts.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.OperationContracts.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.Core.DataContracts.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.Utility.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Newtonsoft.Json.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Microsoft.SharePoint.Client.Runtime.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.ChangePassword.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Syncfusion.Core.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.Hosting.OperationContracts.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.LDAP.DataContracts.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.v12.2.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinToolbars.v12.2.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinDock.v12.2.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGrid.v12.2.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinTabControl.v12.2.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinListView.v12.2.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinStatusBar.v12.2.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinEditors.v12.2.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinChart.v12.2.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinTree.v12.2.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Documents.Excel.v12.2.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGrid.ExcelExport.v12.2.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinMaskedEdit.v12.2.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinSchedule.v12.2.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinDataSource.v12.2.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinExplorerBar.v12.2.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Shared.v12.2.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.Misc.v12.2.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinSpellChecker.v12.2.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.AppStylistSupport.v12.2.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinPrintPreviewDialog.v12.2.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.BAQDesigner.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGauge.v12.2.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Syncfusion.Edit.Windows.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Syncfusion.Shared.Base.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Newtonsoft.Json.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Adapters.Company.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Adapters.JobEntry.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.Company.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.JobEntry.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.UI.Controls.Combos.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.Company.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Adapters.Part.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.Part.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.Part.xml
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Adapters.IssueReturn.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.IssueReturn.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Adapters.ReceiptsfromMfg.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.ReceiptsFromMfg.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Adapters.JobClosing.dll
+C:\Users\oib\documents\visual studio 2012\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.JobClosing.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\APM_BtcPlant.exe.config
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.exe
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.pdb
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\APM_BtcPlant.exe
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\APM_BtcPlant.pdb
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Epicor.App.Version.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.EpiResourceLib.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.UI.Controls.Combos.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.v12.2.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGrid.v12.2.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinTabControl.v12.2.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.Misc.v12.2.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinEditors.v12.2.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Shared.v12.2.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinDock.v12.2.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinStatusBar.v12.2.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.Lib.ClassAttribute.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.Deployment.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.UserFile.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.Cryptography.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.AppSettingsHandler.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinToolbars.v12.2.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.UserTracing.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.BroadcastTower.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinListView.v12.2.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.ClientPlugins.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.SysTag.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.Menu.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Microsoft.mshtml.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.NamedSearch.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.QuickSearch.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.Help.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.About.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.PredictiveSearch.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinChart.v12.2.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.Sec.SecRights.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Epicor.Ice.Shared.Social.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.ZDataTable.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Epicor.Social.DataContracts.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.Custom.CodeEditLib.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinTree.v12.2.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\VisualStudioDebugHelper.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.Attachment.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.Company.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Documents.Excel.v12.2.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGrid.ExcelExport.v12.2.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinMaskedEdit.v12.2.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.DynamicQuery.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinSchedule.v12.2.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinDataSource.v12.2.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinExplorerBar.v12.2.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinSpellChecker.v12.2.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.AppStylistSupport.v12.2.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinPrintPreviewDialog.v12.2.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.BAQDesigner.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.FileTransfer.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.ExcelReader.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGauge.v12.2.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.DocStarAttachment.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.SharepointHelper.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.SysConfig.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.GlobalStrings.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.Logon.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.RestrictedLicenseLib.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.LangTran.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.Annotation.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.LangName.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Syncfusion.Edit.Windows.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Syncfusion.Shared.Base.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.IFileTransfer.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.Lib.FileTransfer.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.UI.ServiceInterop.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.Hosting.DataContracts.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.DataContracts.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.OperationContracts.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.Core.DataContracts.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.Utility.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Microsoft.SharePoint.Client.Runtime.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.ChangePassword.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Syncfusion.Core.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.Hosting.OperationContracts.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.LDAP.DataContracts.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Epicor.ServiceModel.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.Company.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.Part.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.v12.2.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGrid.v12.2.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinTabControl.v12.2.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.Misc.v12.2.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinEditors.v12.2.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Shared.v12.2.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinDock.v12.2.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinStatusBar.v12.2.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinToolbars.v12.2.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinListView.v12.2.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinChart.v12.2.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinTree.v12.2.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Documents.Excel.v12.2.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGrid.ExcelExport.v12.2.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinMaskedEdit.v12.2.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinSchedule.v12.2.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinDataSource.v12.2.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinExplorerBar.v12.2.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinSpellChecker.v12.2.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.AppStylistSupport.v12.2.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinPrintPreviewDialog.v12.2.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.BAQDesigner.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGauge.v12.2.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Syncfusion.Edit.Windows.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Syncfusion.Shared.Base.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Newtonsoft.Json.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.frmBtcPltCfg.resources
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.frmBtcPltMain.resources
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.Properties.Resources.resources
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.csproj.GenerateResource.Cache
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Epicor.Ice.Version.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Epicor.ServiceModel.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Adapters.Company.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Adapters.IssueReturn.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Adapters.JobClosing.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Adapters.JobEntry.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Adapters.Part.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Adapters.ReceiptsfromMfg.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Common.ContractInterfaces.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.Company.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.IssueReturn.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.JobClosing.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.JobEntry.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.Part.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.ReceiptsFromMfg.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Adapters.UD38.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.GenXData.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.UD38.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.Lib.BOReader.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.Lib.ClientCache.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.Lib.SessionMod.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Core.Session.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.EpiClientLib.dll
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.JobEntry.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Core.Session.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.Menu.xml
+C:\Users\sdepicoradmin\Documents\Visual Studio 2015\Projects\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.DynamicQuery.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\APM_BtcPlant.exe.config
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\APM_BtcPlant.exe
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\APM_BtcPlant.pdb
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Epicor.App.Version.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.EpiResourceLib.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.UI.Controls.Combos.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.v12.2.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGrid.v12.2.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinTabControl.v12.2.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.Misc.v12.2.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinEditors.v12.2.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Shared.v12.2.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinDock.v12.2.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinStatusBar.v12.2.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.Lib.ClassAttribute.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.Deployment.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.UserFile.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.Cryptography.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.AppSettingsHandler.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinToolbars.v12.2.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.UserTracing.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.BroadcastTower.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinListView.v12.2.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.ClientPlugins.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.SysTag.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.Menu.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Microsoft.mshtml.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.NamedSearch.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.QuickSearch.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.Help.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.About.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.PredictiveSearch.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinChart.v12.2.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.Sec.SecRights.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Epicor.Ice.Shared.Social.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.ZDataTable.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Epicor.Social.DataContracts.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.Custom.CodeEditLib.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinTree.v12.2.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\VisualStudioDebugHelper.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.Attachment.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.Company.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Documents.Excel.v12.2.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGrid.ExcelExport.v12.2.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinMaskedEdit.v12.2.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.DynamicQuery.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinSchedule.v12.2.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinDataSource.v12.2.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinExplorerBar.v12.2.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinSpellChecker.v12.2.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.AppStylistSupport.v12.2.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinPrintPreviewDialog.v12.2.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.BAQDesigner.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.FileTransfer.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.ExcelReader.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGauge.v12.2.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.DocStarAttachment.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.SharepointHelper.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.SysConfig.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.GlobalStrings.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.Logon.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.RestrictedLicenseLib.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.LangTran.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.Annotation.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.LangName.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Syncfusion.Edit.Windows.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Syncfusion.Shared.Base.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.IFileTransfer.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.Lib.FileTransfer.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.UI.ServiceInterop.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.Hosting.DataContracts.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.DataContracts.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.OperationContracts.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.Core.DataContracts.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.Utility.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Microsoft.SharePoint.Client.Runtime.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.ChangePassword.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Syncfusion.Core.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.Hosting.OperationContracts.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.LDAP.DataContracts.dll
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Epicor.ServiceModel.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.Company.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.JobEntry.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.Part.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Core.Session.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.v12.2.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGrid.v12.2.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinTabControl.v12.2.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.Misc.v12.2.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinEditors.v12.2.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Shared.v12.2.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinDock.v12.2.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinStatusBar.v12.2.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinToolbars.v12.2.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinListView.v12.2.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.Menu.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinChart.v12.2.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinTree.v12.2.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Documents.Excel.v12.2.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGrid.ExcelExport.v12.2.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinMaskedEdit.v12.2.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.DynamicQuery.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinSchedule.v12.2.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinDataSource.v12.2.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinExplorerBar.v12.2.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinSpellChecker.v12.2.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.AppStylistSupport.v12.2.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinPrintPreviewDialog.v12.2.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.BAQDesigner.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGauge.v12.2.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Syncfusion.Edit.Windows.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Syncfusion.Shared.Base.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.frmBtcPltCfg.resources
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.frmBtcPltMain.resources
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.Properties.Resources.resources
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.csproj.GenerateResource.cache
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.csproj.CopyComplete
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.exe
+C:\Users\User\Desktop\APM_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.pdb
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Epicor.Ice.Version.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Epicor.ServiceModel.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Adapters.Company.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Adapters.InventoryQtyAdj.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Adapters.IssueReturn.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Adapters.JobClosing.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Adapters.JobEntry.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Adapters.Part.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Adapters.ReceiptsfromMfg.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Common.ContractInterfaces.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.Company.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.InventoryQtyAdj.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.IssueReturn.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.JobClosing.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.JobEntry.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.Part.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.ReceiptsFromMfg.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Adapters.UD38.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.GenXData.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.UD38.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.Lib.BOReader.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.Lib.ClientCache.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.Lib.SessionMod.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Core.Session.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.EpiClientLib.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Epicor.App.Version.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.EpiResourceLib.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Erp.UI.Controls.Combos.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.v12.2.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGrid.v12.2.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinTabControl.v12.2.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.Misc.v12.2.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinEditors.v12.2.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Shared.v12.2.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinDock.v12.2.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinStatusBar.v12.2.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.Lib.ClassAttribute.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.Deployment.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.UserFile.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.Cryptography.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.AppSettingsHandler.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinToolbars.v12.2.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.UserTracing.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.BroadcastTower.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinListView.v12.2.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.ClientPlugins.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.SysTag.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.Menu.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Microsoft.mshtml.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.NamedSearch.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.QuickSearch.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.Help.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.About.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.PredictiveSearch.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinChart.v12.2.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.Sec.SecRights.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Epicor.Ice.Shared.Social.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.ZDataTable.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Epicor.Social.DataContracts.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.Custom.CodeEditLib.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinTree.v12.2.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\VisualStudioDebugHelper.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.Attachment.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.Company.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Documents.Excel.v12.2.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGrid.ExcelExport.v12.2.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinMaskedEdit.v12.2.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.DynamicQuery.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinSchedule.v12.2.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinDataSource.v12.2.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinExplorerBar.v12.2.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinSpellChecker.v12.2.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.AppStylistSupport.v12.2.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinPrintPreviewDialog.v12.2.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.BAQDesigner.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.FileTransfer.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.ExcelReader.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGauge.v12.2.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.DocStarAttachment.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.SharepointHelper.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.SysConfig.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.GlobalStrings.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.Logon.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.RestrictedLicenseLib.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.LangTran.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.Annotation.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.LangName.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Syncfusion.Edit.Windows.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Syncfusion.Shared.Base.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.IFileTransfer.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.Lib.FileTransfer.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\DocumentFormat.OpenXml.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Astria.UI.ServiceInterop.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.Hosting.DataContracts.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.DataContracts.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.OperationContracts.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.Core.DataContracts.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.Utility.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Newtonsoft.Json.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Microsoft.SharePoint.Client.Runtime.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Lib.ChangePassword.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Syncfusion.Core.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.Hosting.OperationContracts.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Astria.Framework.LDAP.DataContracts.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Epicor.ServiceModel.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.Company.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.InventoryQtyAdj.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.JobEntry.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Erp.Contracts.BO.Part.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Core.Session.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.v12.2.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGrid.v12.2.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinTabControl.v12.2.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.Misc.v12.2.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinEditors.v12.2.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Shared.v12.2.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinDock.v12.2.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinStatusBar.v12.2.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinToolbars.v12.2.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinListView.v12.2.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.Menu.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinChart.v12.2.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinTree.v12.2.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Documents.Excel.v12.2.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGrid.ExcelExport.v12.2.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinMaskedEdit.v12.2.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.DynamicQuery.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinSchedule.v12.2.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinDataSource.v12.2.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinExplorerBar.v12.2.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinSpellChecker.v12.2.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.AppStylistSupport.v12.2.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinPrintPreviewDialog.v12.2.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Ice.Contracts.BO.BAQDesigner.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Infragistics4.Win.UltraWinGauge.v12.2.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Syncfusion.Edit.Windows.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Syncfusion.Shared.Base.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\Newtonsoft.Json.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.frmBtcPltCfg.resources
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.frmBtcPltMain.resources
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.csproj.GenerateResource.Cache
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\ADX_BtcPlant.exe.config
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\ADX_BtcPlant.exe
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\ADX_BtcPlant.pdb
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\obj\Debug\ADX_BtcPlant.Properties.Resources.resources
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\obj\Debug\ADX_BtcPlant.exe
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\obj\Debug\ADX_BtcPlant.pdb
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\ExcelDataReader.DataSet.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\ExcelDataReader.dll
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\ExcelDataReader.pdb
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\ExcelDataReader.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\bin\Debug\ExcelDataReader.DataSet.xml
+C:\SDS -  Do not Delete\YM\ADX_BtcPlant\APM_BtcPlant\obj\Debug\APM_BtcPlant.csprojResolveAssemblyReference.cache

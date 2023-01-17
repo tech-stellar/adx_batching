@@ -1,0 +1,3124 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ice.Contracts.BO.DynamicQuery</name>
+    </assembly>
+    <members>
+        <member name="T:Ice.BO.DynamicQueryDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.DynamicQueryDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryCtrlDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryCtrlValuesDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryCustomActionDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryExecuteSettingDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryParameterDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QuerySubQueryDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryRelationDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryRelationFieldDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QuerySortByDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryWhereItemDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryGroupByDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryTableDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryFieldDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryFieldAttributeDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryFunctionCallDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryUpdateFieldDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryUpdateSettingsDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryValueSetItemsDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.DynamicQueryRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryCtrlRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryCtrlValuesRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryCustomActionRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryExecuteSettingRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryParameterRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QuerySubQueryRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryRelationRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryRelationFieldRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QuerySortByRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryWhereItemRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryGroupByRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryTableRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryFieldRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryFieldAttributeRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryFunctionCallRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryUpdateFieldRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryUpdateSettingsRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryValueSetItemsRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.DynamicQueryRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryCtrlRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryCtrlValuesRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryCustomActionRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryExecuteSettingRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryParameterRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QuerySubQueryRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryRelationRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryRelationFieldRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QuerySortByRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryWhereItemRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryGroupByRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryTableRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryFieldRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryFieldAttributeRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryFunctionCallRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryUpdateFieldRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryUpdateSettingsRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryDataSet.QueryValueSetItemsRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryListDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryListDataSet.DynamicQueryListDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryListDataSet.DynamicQueryListRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQueryListDataSet.DynamicQueryListRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryExecutionDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryExecutionDataSet.ExecutionFilterDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryExecutionDataSet.ExecutionParameterDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryExecutionDataSet.ExecutionSettingDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryExecutionDataSet.ExecutionValueSetItemsDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryExecutionDataSet.ExecutionFilterRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryExecutionDataSet.ExecutionParameterRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryExecutionDataSet.ExecutionSettingRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryExecutionDataSet.ExecutionValueSetItemsRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryExecutionDataSet.ExecutionFilterRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryExecutionDataSet.ExecutionParameterRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryExecutionDataSet.ExecutionSettingRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryExecutionDataSet.ExecutionValueSetItemsRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQuery.ResultFieldMetadata">
+            <summary>
+            The struct stores information about a query display field represented in resultset as a column in results table.
+            Contains number of well-known properties like Alias, Sequence, Format, etc.
+            Also contains set of custom attributes specified for a display field by user.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQuery.ResultFieldMetadata.AttributeItem">
+            <summary>
+            For internal use
+            </summary>
+        </member>
+        <member name="P:Ice.BO.DynamicQuery.ResultFieldMetadata.AttributeItem.Name">
+            <summary>
+            For internal use
+            </summary>
+        </member>
+        <member name="P:Ice.BO.DynamicQuery.ResultFieldMetadata.AttributeItem.Value">
+            <summary>
+            For internal use
+            </summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.ResultFieldMetadata.#ctor(System.String,System.Type,System.Int32,System.String,System.String,System.String,System.Boolean,System.Boolean,System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Construct instance of the struct
+            </summary>
+            <param name="alias"></param>
+            <param name="dataType"></param>
+            <param name="seq"></param>
+            <param name="required"></param>
+            <param name="attributes"></param>
+            <param name="caption"></param>
+            <param name="format"></param>
+            <param name="like"></param>
+            <param name="readOnly"></param>
+        </member>
+        <member name="P:Ice.BO.DynamicQuery.ResultFieldMetadata.TypeName">
+            <summary>
+            For internal use
+            </summary>
+        </member>
+        <member name="P:Ice.BO.DynamicQuery.ResultFieldMetadata.Alias">
+            <summary>
+            Name of display field
+            </summary>
+        </member>
+        <member name="P:Ice.BO.DynamicQuery.ResultFieldMetadata.DataType">
+            <summary>
+            .net type of values provided by display field
+            </summary>
+        </member>
+        <member name="P:Ice.BO.DynamicQuery.ResultFieldMetadata.Sequence">
+            <summary>
+            Position of display field in query's display field list
+            </summary>
+        </member>
+        <member name="P:Ice.BO.DynamicQuery.ResultFieldMetadata.Caption">
+            <summary>
+            Caption of the field
+            </summary>
+        </member>
+        <member name="P:Ice.BO.DynamicQuery.ResultFieldMetadata.Format">
+            <summary>
+            Format string
+            </summary>
+        </member>
+        <member name="P:Ice.BO.DynamicQuery.ResultFieldMetadata.Like">
+            <summary>
+            A like field reference in form table.field
+            </summary>
+        </member>
+        <member name="P:Ice.BO.DynamicQuery.ResultFieldMetadata.ReadOnly">
+            <summary>
+            True if the field is not indended to be modified by updatable query
+            </summary>
+        </member>
+        <member name="P:Ice.BO.DynamicQuery.ResultFieldMetadata.Required">
+            <summary>
+            True if the field is required to have a value
+            </summary>
+        </member>
+        <member name="P:Ice.BO.DynamicQuery.ResultFieldMetadata.Attributes">
+            <summary>
+            Dictionary of attributes added to display field by user
+            </summary>
+        </member>
+        <member name="P:Ice.BO.DynamicQuery.ResultFieldMetadata.AttributeList">
+            <summary>
+            For internal use
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQuery.Ubaq.IUbaqRuntime">
+            <summary>
+            This is public API for updatable query. This full set of methods.
+            </summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.Ubaq.IUbaqRuntime.GetList(Ice.Tablesets.DynamicQueryTableset,Ice.Tablesets.QueryExecutionTableset,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            
+            </summary>
+            <param name="queryDS"></param>
+            <param name="executionParams"></param>
+            <param name="pageSize"></param>
+            <param name="absolutePage"></param>
+            <param name="hasMorePage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.Ubaq.IUbaqRuntime.Update(Ice.Tablesets.DynamicQueryTableset,System.Data.DataSet@)">
+            <summary>
+            
+            </summary>
+            <param name="queryDS"></param>
+            <param name="queryResultDataset"></param>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.Ubaq.IUbaqRuntime.GetNew(Ice.Tablesets.DynamicQueryTableset)">
+            <summary>
+            
+            </summary>
+            <param name="queryDS"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.Ubaq.IUbaqRuntime.FieldUpdate(Ice.Tablesets.DynamicQueryTableset,System.String,System.Data.DataSet@)">
+            <summary>
+            
+            </summary>
+            <param name="queryDS"></param>
+            <param name="fieldName"></param>
+            <param name="queryResultDataset"></param>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.Ubaq.IUbaqRuntime.FieldValidate(Ice.Tablesets.DynamicQueryTableset,System.String,System.Data.DataSet@)">
+            <summary>
+            
+            </summary>
+            <param name="queryDS"></param>
+            <param name="fieldName"></param>
+            <param name="queryResultDataset"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.Ubaq.IUbaqRuntime.RunCustomAction(Ice.Tablesets.DynamicQueryTableset,System.String,System.Data.DataSet@)">
+            <summary>
+            
+            </summary>
+            <param name="queryDS"></param>
+            <param name="actionID"></param>
+            <param name="queryResultDataset"></param>
+        </member>
+        <member name="T:Ice.BO.DynamicQuery.Ubaq.IUbaqDataSetMaker">
+            <summary>
+            This interface lets create empty dataset with schema defined in query design passed as parameter
+            </summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.Ubaq.IUbaqDataSetMaker.CreateEmpty(Ice.Tablesets.DynamicQueryTableset)">
+            <summary>
+            
+            </summary>
+            <param name="queryDS"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Ice.BO.DynamicQuery.Ubaq.IUbaqCore">
+            <summary>
+            An internal interface used by BPM engine to call basic implementation of Ubaq methods.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQuery.UpdatableType">
+            <summary>
+            A letter denotes kind of updatable customization associated with an updatable query
+            </summary>
+        </member>
+        <member name="F:Ice.BO.DynamicQuery.UpdatableType.Unknown">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.DynamicQuery.UpdatableType.BusinessObject">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.DynamicQuery.UpdatableType.Workflow">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Ice.BO.DynamicQuery.UpdatableType.Advanced">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQuery.WellKnownFieldAttributeNames">
+            <summary>
+            Holds names of standard display field attributes
+            </summary>
+        </member>
+        <member name="F:Ice.BO.DynamicQuery.WellKnownFieldAttributeNames.Caption">
+            <summary>
+            Name of Caption attribute in Attributes dictionary
+            </summary>
+        </member>
+        <member name="F:Ice.BO.DynamicQuery.WellKnownFieldAttributeNames.ReadOnly">
+            <summary>
+            Name of ReadOnly attribute in Attributes dictionary
+            </summary>
+        </member>
+        <member name="F:Ice.BO.DynamicQuery.WellKnownFieldAttributeNames.Format">
+            <summary>
+            Name of Format attribute in Attributes dictionary
+            </summary>
+        </member>
+        <member name="F:Ice.BO.DynamicQuery.WellKnownFieldAttributeNames.Like">
+            <summary>
+            Name of Like attribute in Attributes dictionary
+            </summary>
+        </member>
+        <member name="F:Ice.BO.DynamicQuery.WellKnownFieldAttributeNames.Required">
+            <summary>
+            Name of CaptionRequired attribute in Attributes dictionary
+            </summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQuery.QueryResultDatasetHelper">
+            <summary>Helper for processing query result dataset.</summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQuery.QueryResultDatasetHelper.TreatTimestampAs">
+            <summary>
+            How to convert sql timestamp data type to .net data type
+            </summary>
+        </member>
+        <member name="F:Ice.BO.DynamicQuery.QueryResultDatasetHelper.TreatTimestampAs.ByteArray">
+            <summary>as byte array. By default</summary>
+        </member>
+        <member name="F:Ice.BO.DynamicQuery.QueryResultDatasetHelper.TreatTimestampAs.DateTime">
+            <summary>as datetime</summary>
+        </member>
+        <member name="F:Ice.BO.DynamicQuery.QueryResultDatasetHelper.TreatTimestampAs.Long">
+            <summary>as long</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.QueryResultDatasetHelper.PrepareForUbaq(System.Data.DataSet,System.String,Ice.Tablesets.DynamicQueryTableset)">
+            <summary>Add extended properties for fields in Results table.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.QueryResultDatasetHelper.EnsureRowIdent(System.Data.DataSet)">
+            <summary>Add RowIdent column into Results table if need. make it primary.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.QueryResultDatasetHelper.PrepareForOrdinal(System.Data.DataSet,System.String,Ice.Tablesets.DynamicQueryTableset)">
+            <summary>Fill fields in Results table with extended information.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.QueryResultDatasetHelper.PrepareAuxTables(System.Data.DataSet)">
+            <summary>Ensure Result dataset contains Errors and ExecutionInfo tables.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.QueryResultDatasetHelper.GetErrorsText(System.Data.DataSet)">
+            <summary>
+            Returns multiline text with error per line from Errors table. Otherwise empty string is returned.
+            </summary>
+            <param name="result"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.QueryResultDatasetHelper.ReportError(System.Data.DataSet,System.String,System.String)">
+            <summary>Add an line with data into Errors table.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.QueryResultDatasetHelper.PrepareForPaging(Ice.Tablesets.ExecutionSettingTable,System.Int32,System.Int32)">
+            <summary>Fill ExecutionSetting table with paging settings.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.QueryResultDatasetHelper.HasMorePages(System.Data.DataSet,System.Int32,System.Int32)">
+            <summary>Check if query returned information about additional pages.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.QueryResultDatasetHelper.NetTypeToDBType(System.Type)">
+            <summary>Net data type to MS SQL DB data type.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.QueryResultDatasetHelper.DBTypeToNetType(System.String,System.Boolean,System.Boolean)">
+            <summary>MS SQL DB data type to .Net data type.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.QueryResultDatasetHelper.DBTypeToNetType(System.String,Ice.BO.DynamicQuery.QueryResultDatasetHelper.TreatTimestampAs)">
+            <summary>SQL data type to .Net data type.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.QueryResultDatasetHelper.DBTypeToEpicorNetType(System.String,System.Boolean,System.Boolean)">
+            <summary>MS SQL DB data type to Epicor compatible .Net data type.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.QueryResultDatasetHelper.DBTypeToEpicorNetTypeString(System.String,System.Boolean,System.Boolean)">
+            <summary>MS SQL DB data type to string representation of Epicor compatible .Net data type.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.QueryResultDatasetHelper.GetDBTypeDefaultValue(System.String)">
+            <summary>Get default value for specified MS SQL DB data type.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.QueryResultDatasetHelper.FilterChangedRows(System.Data.DataSet,System.Boolean)">
+            <summary>Prepare dataset for sending into UBAQ methods, i.e. processing RowMod column.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.QueryResultDatasetHelper.FilterRowsBeforeReturn(System.Data.DataSet)">
+            <summary>Prepare dataset for sending into UBAQ methods, i.e. processing RowMod column.</summary>
+        </member>
+        <member name="T:Ice.BO.DynamicQuery.RequestResponseHelper">
+            <summary>Helper for handling data in ESC workflow xml documents.</summary>
+        </member>
+        <member name="F:Ice.BO.DynamicQuery.RequestResponseHelper.DataSetName">
+            <summary>Name of root node for BAQ dataset.</summary>
+        </member>
+        <member name="F:Ice.BO.DynamicQuery.RequestResponseHelper.RootRequestNodeName">
+            <summary>Name of request root node.</summary>
+        </member>
+        <member name="F:Ice.BO.DynamicQuery.RequestResponseHelper.RootResponseNodeName">
+            <summary>Name of response root node.</summary>
+        </member>
+        <member name="F:Ice.BO.DynamicQuery.RequestResponseHelper.RequestNodeName">
+            <summary>Request node name.</summary>
+        </member>
+        <member name="F:Ice.BO.DynamicQuery.RequestResponseHelper.ResponseNodeName">
+            <summary>Response node name.</summary>
+        </member>
+        <member name="F:Ice.BO.DynamicQuery.RequestResponseHelper.DataSetTypePrefix">
+            <summary>Prefix for BAQ dataset types.</summary>
+        </member>
+        <member name="F:Ice.BO.DynamicQuery.RequestResponseHelper.BaqResponseTypePrefix">
+            <summary>Prefix for type names in response.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.RequestResponseHelper.GetQueryName(System.String,System.String)">
+            <summary>Compose query full name.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.RequestResponseHelper.GetRequestSchemaPostfix(System.String,System.String)">
+            <summary>Get postfix for schema in request.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.RequestResponseHelper.GetResponseSchemaPostfix(System.String,System.String)">
+            <summary>Get postfix for schema in response.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.RequestResponseHelper.GetRequestSchemaLocation(System.String,System.String)">
+            <summary>Get request schema file path.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.RequestResponseHelper.GetResponseSchemaLocation(System.String,System.String)">
+            <summary>Get response schema file path.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.RequestResponseHelper.GetRequestSchemaUrl(System.String,System.String)">
+            <summary>Get request schema URL.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.RequestResponseHelper.GetResponseSchemaUrl(System.String,System.String)">
+            <summary>Get response schema URL.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.RequestResponseHelper.GetDSSchemaUrl(System.String,System.String)">
+            <summary>Get dataset schema URL.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.RequestResponseHelper.GetDSSchemaLocation(System.String,System.String)">
+            <summary>Get dataset schema file path.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.RequestResponseHelper.GetDSSchemaRelativeLocation(System.String,System.String)">
+            <summary>Get dataset schema file relative path.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.RequestResponseHelper.GetDatasetFullName(System.String,System.String)">
+            <summary>Get dataset name.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.RequestResponseHelper.GetDatasetSchema(System.String,System.String,Ice.BO.DynamicQueryDataSet,System.Data.DataSet)">
+            <summary>Get dataset schema XML.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.RequestResponseHelper.GetRequestSchema(System.String,System.String)">
+            <summary>Get request schema XML.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.RequestResponseHelper.GetResponseSchema(System.String,System.String)">
+            <summary>Get response schema XML.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.RequestResponseHelper.ParseAndConvertData(Ice.Tablesets.DynamicQueryTableset,System.Data.DataSet,System.Data.DataSet)">
+            <summary>Parse and convert data.</summary>
+        </member>
+        <member name="M:Ice.BO.DynamicQuery.RequestResponseHelper.WriteResultDatasetXml(System.Xml.XmlWriter,Ice.Tablesets.DynamicQueryTableset,System.Data.DataSet)">
+            <summary>Get result dataset XML.</summary>
+        </member>
+        <member name="T:Ice.BO.QueryExecutionParametersDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryExecutionParametersDataSet.QueryResultFieldDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryExecutionParametersDataSet.QueryArgumentsDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryExecutionParametersDataSet.QueryResultFieldRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryExecutionParametersDataSet.QueryArgumentsRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryExecutionParametersDataSet.QueryResultFieldRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.BO.QueryExecutionParametersDataSet.QueryArgumentsRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Ice.Contracts.DynamicQuerySvcContract">
+            <summary>
+            This is the DynamicQuery object. It has various methods for executing a query.
+            </summary>
+            <summary>
+            This is the DynamicQuery object. It has various methods for executing a query.
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.GetByIDs(System.Collections.Generic.List{System.String})">
+            <summary>
+            This method returns a dataset containing definition of queries with ids listed in parameter
+            </summary>
+            <param name="queryIDList">List of query ids to load definition</param>
+            <returns>The dataset representing requested query design definition</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.ExecuteByID(System.String,Ice.Tablesets.QueryExecutionTableset)">
+            <summary>
+            This method run an existing query and returns an untyped dataset
+            </summary>
+            <param name="queryID">The current Query ID</param>
+            <param name="executionParams">The Query execution parameters (named parameter values, filtering and etc.)</param>
+            <returns>Returns the result of the query</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.Execute(Ice.Tablesets.DynamicQueryTableset,Ice.Tablesets.QueryExecutionTableset)">
+            <summary>
+            This method runs a query based on default settings.
+            Used by: Server\Bpm\BpmQuery.i
+            </summary>
+            <param name="queryDS">The dataset represents a Query</param>
+            <param name="executionParams">The Query execution parameters (named parameter values, filtering and etc.)</param>
+            <returns>Returns the result dataset</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.CheckTestQueryExecution(System.Guid,System.String,System.Boolean)">
+            <summary>
+            For MS SQL query checks if it is executed right now and cancel it if requested
+            </summary>
+            <param name="executionToken"></param>
+            <param name="extDsn">dsn for external queries</param>
+            <param name="cancelExecution"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.GetQueryExecutionPlan(System.Guid,System.String)">
+            <summary>
+            For MS SQL query returns query execution plan
+            </summary>
+            <param name="executionToken"></param>
+            <param name="extDsn">dsn for external queries</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.GetQueryListFromLike(System.String,System.String)">
+            <summary>
+            This method returns a list of BAQs that have a specific like field
+            Used by: Server\bo\EpiSearch\EpiSearch.p
+            </summary>
+            <param name="likeTableName">The table name of the like field</param>
+            <param name="likeFieldName">The field name of the like field</param>
+            <returns>The list of queries that meet the criteria</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.GetQueryExecutionParameters(Ice.Tablesets.DynamicQueryTableset)">
+            <summary>
+            This method returns a dataset representing an query's execution parameters information
+            </summary>
+            <param name="queryDS">The query design dataset</param>
+            <returns>Returns the dataset representing the query execution parameters</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.GetQueryExecutionParametersByID(System.String)">
+            <summary>
+            This method returns a dataset representing an query's execution parameters information
+            </summary>
+            <param name="queryID">The Query ID</param>
+            <returns>Returns the dataset representing the query execution parameters</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.GetQueryEmptyResultSet(Ice.Tablesets.DynamicQueryTableset)">
+            <summary>
+            This method returns an empty result dataset. It is useful if client need information about result set schema only
+            </summary>
+            <param name="queryDS">The query design dataset</param>
+            <returns>Returns the empty dataset representing the query result</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.GetQueryEmptyResultSetByID(System.String)">
+            <summary>
+            This method returns an empty result dataset. It is useful if client need information about result set schema only
+            </summary>
+            <param name="queryID">The Query ID</param>
+            <returns>Returns the empty dataset representing the query result</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.GetQueryEmptyResultSetByIDAndCompany(System.String,System.String)">
+            <summary>
+            This method returns an empty result dataset. It is useful if client need information about result set schema only
+            </summary>
+            <param name="queryID">The Query ID</param>
+            <param name="companyID">The query's Company ID</param>
+            <returns>Returns the empty dataset representing the query result</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.GetQueryResultSetMetadataByID(System.String)">
+            <summary>
+            This method returns a list of groups of attributes and values, each group per query's display field.
+            Attributes expose information about the field: Caption, Format, DataType, ReadOnly, etc.
+            </summary>
+            <param name="queryID">The Query ID</param>
+            <returns>Returns the attributes and values grouped by query's display fields</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.Analyze(Ice.Tablesets.DynamicQueryTableset,Ice.Tablesets.QueryExecutionTableset,System.Collections.Generic.List{System.String}@)">
+            <summary>
+            This method verifies a query and returns <c>true</c> if it is valid. <c>false</c> otherwise.
+            </summary>
+            <param name="queryDS">The dataset represents the current query</param>
+            <param name="executionParams">The execution parameters.</param>
+            <param name="errorMessages">List of error messages returned if the query analysis is not success</param>
+            <returns>
+            the result of analysis. <c>true</c> if query is OK, otherwise - <c>false</c>
+            </returns>
+            <exception cref="T:System.ArgumentNullException">QueryDesignDataSet</exception>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.GetRows(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            This method returns a list of BAQs that have a specific like field
+            Used by: Server\bo\EpiSearch\EpiSearch.p
+            </summary>
+            <param name="whereClauseDynamicQuery"></param>
+            <param name="whereClauseQueryCtrl"></param>
+            <param name="whereClauseQueryCtrlValues"></param>
+            <param name="whereClauseQueryCustomAction"></param>
+            <param name="whereClauseQueryExecuteSetting"></param>
+            <param name="whereClauseQueryParameter"></param>
+            <param name="whereClauseQuerySubQuery"></param>
+            <param name="whereClauseQueryRelation"></param>
+            <param name="whereClauseQueryRelationField"></param>
+            <param name="whereClauseQuerySortBy"></param>
+            <param name="whereClauseQueryWhereItem"></param>
+            <param name="whereClauseQueryGroupBy"></param>
+            <param name="whereClauseQueryTable"></param>
+            <param name="whereClauseQueryField"></param>
+            <param name="whereClauseQueryFunctionCall"></param>
+            <param name="whereClauseQueryUpdateField"></param>
+            <param name="whereClauseQueryUpdateSettings"></param>
+            <param name="whereClauseQueryValueSetItems"></param>
+            <param name="whereClauseQueryFieldAttribute"></param>
+            <param name="pageSize"></param>
+            <param name="absolutePage"></param>
+            <param name="morePages"></param>
+            <returns>The list of queries that meet the criteria</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.GetQueryList(System.String,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            This method returns a list of BAQs that meet the criteria. The result can be paged.
+            </summary>
+            <param name="whereClause">The criteria</param>
+            <param name="pageSize">Size of the page</param>
+            <param name="absolutePage">The number of the page to return</param>
+            <param name="morePages">The flag tells whether there are more pages left</param>
+            <returns>The list of queries that meet the criteria</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.GetList(Ice.Tablesets.DynamicQueryTableset,Ice.Tablesets.QueryExecutionTableset,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            This method runs an updatable query and returns result dataset.
+            </summary>
+            <param name="queryDS">The dataset represents a Query</param>
+            <param name="executionParams">The dataset contains execution parameters</param>
+            <param name="pageSize">Number of records in a page. 0 means you don't want paging</param>
+            <param name="absolutePage">Number of page to return. 1 should be set by default</param>
+            <param name="hasMorePage">Returns sign whether there are more records to return. Has sense if you specify non default values for previous two parameters</param>
+            <returns>Returns the result dataset</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.GetListByID(System.String,Ice.Tablesets.QueryExecutionTableset,System.Int32,System.Int32,System.Boolean@)">
+            <summary>
+            This method runs an updatable query and returns result dataset.
+            </summary>
+            <param name="queryID">Query's id to execute</param>
+            <param name="executionParams">The dataset contains execution parameters</param>
+            <param name="pageSize">Number of records in a page. 0 means you don't want paging</param>
+            <param name="absolutePage">Number of page to return. 1 should be set by default</param>
+            <param name="hasMorePage">Returns sign whether there are more records to return. Has sense if you specify non default values for previous two parameters</param>
+            <returns>Returns the result dataset</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.Update(Ice.Tablesets.DynamicQueryTableset,System.Data.DataSet)">
+            <summary>
+            Call Update method of an updatable query and return result dataset
+            </summary>
+            <param name="queryDS">Updatable query definition dataset</param>
+            <param name="queryResultDataset">Query result dataset</param>
+            <returns>Result of Update method call. Usually this is incoming query result dataset with some changes</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.UpdateByID(System.String,System.Data.DataSet)">
+            <summary>
+            Call Update method of an updatable query and return result dataset
+            </summary>
+            <param name="queryID">Updatable query id</param>
+            <param name="queryResultDataset">Query result dataset</param>
+            <returns>Result of Update method call. Usually this is incoming query result dataset with some changes</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.GetNew(Ice.Tablesets.DynamicQueryTableset)">
+            <summary>
+            Calls GetNew method of an updatable query and return result set with added row.
+            </summary>
+            <param name="queryDS">Updatable query definition dataset</param>
+            <returns>Result of method call. A new expected to be added to results table</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.GetNewByID(System.String)">
+            <summary>
+            Calls GetNew method of an updatable query and return result set with added row.
+            </summary>
+            <param name="queryID">Updatable query id</param>
+            <returns>Result of method call. A new expected to be added to results table</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.FieldUpdate(Ice.Tablesets.DynamicQueryTableset,System.String,System.Data.DataSet)">
+            <summary>
+            Calls FieldUpdate method of an updatable query and return result set.
+            </summary>
+            <param name="queryDS">Updatable query definition dataset</param>
+            <param name="fieldName">Name of an updatable field</param>
+            <param name="queryResultDataset">Query result dataset with a row where the field is going to be updated</param>
+            <returns>Query result dataset with a row where the field is going to be updated</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.FieldUpdateByID(System.String,System.String,System.Data.DataSet)">
+            <summary>
+            Calls FieldUpdate method of an updatable query and return result set.
+            </summary>
+            <param name="queryID">Updatable query id</param>
+            <param name="fieldName">Name of an updatable field</param>
+            <param name="queryResultDataset">Query result dataset with a row where the field is going to be updated</param>
+            <returns>Query result dataset with a row where the field is going to be updated</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.FieldValidate(Ice.Tablesets.DynamicQueryTableset,System.String,System.Data.DataSet,System.Boolean@)">
+            <summary>
+            Calls FieldUpdate method of an updatable query and return result set.
+            </summary>
+            <param name="queryDS">Updatable query definition dataset</param>
+            <param name="fieldName">Name of an updatable field</param>
+            <param name="queryResultDataset">Query result dataset with a changed row</param>
+            <param name="isValid">Returns the flag whether changes were accepted</param>
+            <returns>Query result dataset with a row where the field is going to be updated</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.FieldValidateByID(System.String,System.String,System.Data.DataSet,System.Boolean@)">
+            <summary>
+            Calls FieldUpdate method of an updatable query and return result set.
+            </summary>
+            <param name="queryID">Updatable query id</param>
+            <param name="fieldName">Name of an updatable field</param>
+            <param name="queryResultDataset">Query result dataset with a changed row</param>
+            <param name="isValid">Returns the flag whether changes were accepted</param>
+            <returns>Query result dataset with a row where the field is going to be updated</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.RunCustomAction(Ice.Tablesets.DynamicQueryTableset,System.String,System.Data.DataSet)">
+            <summary>
+            This method does nothing per se, but is useful if there are BPM directives
+            attached to the query. Directives can examine actionId value and perform some actions.
+            </summary>
+            <param name="queryDS">Updatable query definition dataset</param>
+            <param name="actionID">An action id</param>
+            <param name="queryResultDataset">Query result dataset with a changed row</param>
+            <returns>Query result dataset with a changed row</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.RunCustomActionByID(System.String,System.String,System.Data.DataSet)">
+            <summary>
+            This method does nothing per se, but is useful if there are BPM directives
+            attached to the query. Directives can examine actionId value and perform some actions.
+            </summary>
+            <param name="queryID">Updatable query id</param>
+            <param name="actionID">An action id</param>
+            <param name="queryResultDataset">Query result dataset with a changed row</param>
+            <returns>Query result dataset with a changed row</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.GetDistinctValues(System.String,Ice.Tablesets.QueryExecutionTableset,System.Collections.Generic.List{System.String})">
+            <summary>
+            This method runs a query based on default settings and passed execution parameters and return lists of distinct values of specified fields.
+            </summary>
+            <param name="queryID">The Query ID</param>
+            <param name="executionParams">The Query execution parameters (named parameter values, filtering and etc.)</param>
+            <param name="distinctFields">List of query display fields distinct values of which should be returned</param>
+            <returns>Returns the result dataset</returns>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQuerySvcContract.GetByID(System.String)">
+            <summary>
+            This method returns a dataset containing definition of the query
+            </summary>
+            <param name="queryID">Query id to load definition</param>
+            <returns>The dataset representing requested query design definition</returns>
+        </member>
+        <member name="T:Ice.Contracts.DynamicQueryConstants">
+            <summary>Various constants used by DynamicQuery in its work.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.GlobalConstantsQueryID">
+            <summary>Name of predefined system query which return BAQ constants</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.ConstantsTableID">
+            <summary>Name of BAQ constants table as a BAQ constant is referenced in a query</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.ResultsDataSetName">
+            <summary>Name of dataset returned by query</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.ResultsTableName">
+            <summary>Name of table with result row set in the dataset returned by query</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.ErrorsTableName">
+            <summary>Name of table with possible query execution errors in the dataset returned by query</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.ExecutionInfoTableName">
+            <summary>Name of table with additional query execution information in the dataset returned by query</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.CalcFieldFakeTableName">
+            <summary>Name of fake table used by BAQ to work with calc field in the same way as with ordinal table field</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.HasPagesInfoName">
+            <summary>Flag which tells whether there are one more pages in addition to currently returned. Returned only for paged query only.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.TotalRows">
+            <summary>Total rows in query result set. This information is returned if NeedTotalSettingName is set in ExecutionInfo. May affect query performance.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.ExecutionTime">
+            <summary>The total time in milliseconds spent for query execution and pumping results</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.QueryLimitReached">
+            <summary>Max rows  count reached</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.TopNSettingName">
+            <summary>Setting name for TOP setting which limits number of rows returned by the query. This is applied after query settings, so if the query has predefined TOP N already then the smallest N wins.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.SelectSettingName">
+            <summary>Setting name for SELECT. This is comma-delimited list of fields in SQL notation. Here you can narrow set of fields returned by query. Only display fields can be referenced.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.WhereSettingName">
+            <summary>Setting name of additional conditions in SQL notation which are applied against results table. Only display fields and BAQ/SQL constants be referenced. You can use here statements of any complexity including and/or concatenations. If ExecutionFilter table contains any conditions then they will be applied before this ‘where’ condition</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.HavingSettingName">
+            <summary>Setting name for statement appeared in HAVING clause in addition to query settings.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.OrderBySettingName">
+            <summary>Setting name for comma-delimited list of fields by which query result need to be sorted. Optional direction can be specified in SQL notation (ASC/DESC).</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.GroupBySettingName">
+            <summary>Setting name for comma-delimited list of fields by which query result need to be grouped.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.TimeoutSettingName">
+            <summary>Setting name for limitation of query execution time. This works only for queries against MS SQL server. Default value is 500 ms.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.TransIsolationSettingName">
+            <summary>Setting name for transaction isolation. Is mapped to corresponding SQL setting. Allowed values can be taken from DynamicQueryConstants.TransactionIsolation enumeration. The default isolation level is ReadUncommited for ordinal queries and for external queries which configured with MS SQL client or have Prophet21 application type.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.CompanyFilterSettingName">
+            <summary>Setting name for additional filtering by company (companies). This setting is actual for cross-company queries only. This setting narrows list of companies selected during query execution. Rows with empty company field always get into result. To specify list of companies add row with Name=CompanyFilterSettingName and Value=company id for each company in list.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.PageNumSettingName">
+            <summary>Setting name for paging. Specifies a number of the page to return. Started with 1. Should be accompanied with PageSize setting</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.PageSizeSettingName">
+            <summary>Setting name for paging. Specifies a size of the page. If set to 0 that means the paging is turned off.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.PagingTypeSettingName">
+            <summary>Setting name for paging method. Currently accepted: Simple, Partition, Offset, Auto. Auto method is used by default.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.NeedTotalSettingName">
+            <summary>Setting name for paging. Tells BAQ to return total number of rows in result set when paging is enabled. If this setting is set to true then after the BAQ returned result dataset you need to look into ExecutionInfo table in this dataset and find the row with DynamicQueryConstants.TotalRows key.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.SQLDateFormatSettingName">
+            <summary>Setting name for transaction isolation. Is mapped to corresponding SQL setting. Allowed values can be taken from DynamicQueryConstants.TransactionIsolation enumeration. The default isolation level is ReadUncommited for ordinal queries and for external queries which configured with MS SQL client or have Prophet21 application type.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.TestExecutionTokenSettingName">
+            <summary>Setting name for GUID, set internally during query testing in BAQ designer to identify the query</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.RemoveTestRowLimitSettingName">
+            <summary>Setting name for RemoveTestRowLimit. Allows user to explicitly set unlimited row count from server during BAQ designer test execution</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.QueryMaxResultSet">
+            <summary>
+            maximum rows in query
+            </summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.QueryTimeOut">
+            <summary>
+            maximum query command timeout in seconds
+            </summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.QueryMaxResultSetHardCode">
+            <summary>
+            default value of the queryMaxResultSet 
+            </summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.QueryMaxResultSetTestHardCode">
+            <summary>
+            default value of the queryMaxResultSet in test query mode
+            </summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.QueryTimeOutHardCode">
+            <summary>
+            default value of the QueryTimeOut
+            </summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.P21PrimaryUpdTable">
+            <summary>Name of the first table with Updatable columns. For P21 UBAQ customization only.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.P21ApiToken">
+            <summary>A token for indentification 21 user based on current ICE3 user.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.SystemCode">
+            <summary>System code used in reference to Ubaq methods in BPM customization.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.ProductCode">
+            <summary>System code used as part of to Ubaq method name in BPM customization.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.CurrentUserIDParamName">
+            <summary>Name of predefined BAQ parameter with current user ID.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.CurrentCompanyIDParamName">
+            <summary>Name of predefined BAQ parameter with current company ID.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.ErrorTypeInfo">
+            <summary>Name of informational error message in Errors table.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.ErrorTypeWarning">
+            <summary>Name of warning message in Errors table.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.ErrorTypeError">
+            <summary>Name of error message in Errors table.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.ErrorTypeException">
+            <summary>UpdateExt returned error type</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.RowModColName">
+            <summary>Name of column with RowMod value.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.RowIDColName">
+            <summary>Name of column with row id value.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.GetListMethodName">
+            <summary>
+            Name of UBAQ GetList method
+            </summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.UpdateMethodName">
+            <summary>
+            Name of UBAQ Update method
+            </summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.GetNewMethodName">
+            <summary>
+            Name of UBAQ GetNew method
+            </summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.FieldUpdateMethodName">
+            <summary>
+            Name of UBAQ FieldUpdate method
+            </summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.FieldValidateMethodName">
+            <summary>
+            Name of UBAQ FieldValidate method
+            </summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.RunCustomActionMethodName">
+            <summary>
+            Name of UBAQ RunCustomAction method
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQueryConstants.GetBpmSafeId(System.String)">
+            <summary>
+            Adjust name of the UBAQ
+            </summary>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQueryConstants.GetUbaqId(System.String,System.String)">
+            <summary>Returns UBaq's object name</summary>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQueryConstants.GetUbaqGetListMethodCode(System.String,System.String)">
+            <summary>Returns full qualified UBaq's GetList method name</summary>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQueryConstants.GetUbaqUpdateMethodCode(System.String,System.String)">
+            <summary>Returns full qualified UBaq's Update method name</summary>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQueryConstants.GetUbaqGetNewMethodCode(System.String,System.String)">
+            <summary>Returns full qualified UBaq's GetNew method name</summary>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQueryConstants.GetUbaqFieldUpdateMethodCode(System.String,System.String)">
+            <summary>Returns full qualified UBaq's FieldUpdate method name</summary>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQueryConstants.GetUbaqFieldValidateMethodCode(System.String,System.String)">
+            <summary>Returns full qualified UBaq's FieldValidate method name</summary>
+        </member>
+        <member name="M:Ice.Contracts.DynamicQueryConstants.GetUbaqRunCustomActionMethodCode(System.String,System.String)">
+            <summary>Returns full qualified UBaq's RunCustomAction method name</summary>
+        </member>
+        <member name="T:Ice.Contracts.DynamicQueryConstants.TransactionIsolation">
+            <summary>Enumeration for transaction isolation levels.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.TransactionIsolation.ReadUncommited">
+            <summary>Read uncommited.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.TransactionIsolation.ReadCommitted">
+            <summary>Read committed.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.TransactionIsolation.RepeatableRead">
+            <summary>Repeatable read.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.TransactionIsolation.Serializable">
+            <summary>Serializable.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.TransactionIsolation.Snapshot">
+            <summary>SNAPSHOT.</summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.TransactionIsolation.NotSet">
+            <summary>Not set.</summary>
+        </member>
+        <member name="T:Ice.Contracts.DynamicQueryConstants.SqlServerDateFormat">
+            <summary>
+            Select DataFormat for query mdy. dmy, ymd
+            </summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.SqlServerDateFormat.NotSet">
+            <summary>
+            No setting is added.
+            </summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.SqlServerDateFormat.mdy">
+            <summary>
+            Month Day Year
+            </summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.SqlServerDateFormat.dmy">
+            <summary>
+            Day Month Year
+            </summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.SqlServerDateFormat.ymd">
+            <summary>
+            Year Month Day
+            </summary>
+        </member>
+        <member name="T:Ice.Contracts.DynamicQueryConstants.CriteriaType">
+            <summary>
+             Type of the criteria stored in the QUeryWhereItem
+            </summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.CriteriaType.Query">
+            <summary>
+            Criteria shown in Where Clause
+            </summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.CriteriaType.Having">
+            <summary>
+            Criteria shown in Having Clause
+            </summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.CriteriaType.Join">
+            <summary>
+            Criteria shown in JOIN Clause (or Where, if no Join defined)
+            </summary>
+        </member>
+        <member name="F:Ice.Contracts.DynamicQueryConstants.CriteriaType.PivotFor">
+            <summary>
+            FOR clause in Pivot|unpivot
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryRow.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryRow.AuthorID">
+            <summary>
+            AuthorID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryRow.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryRow.DisplayPhrase">
+            <summary>
+            DisplayPhrase
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryRow.IsShared">
+            <summary>
+            IsShared
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryRow.Version">
+            <summary>
+            Version
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryRow.CGCCode">
+            <summary>
+            CGCCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryRow.XCompany">
+            <summary>
+            XCompany
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryRow.GlbCompany">
+            <summary>
+            GlbCompany
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryRow.Updatable">
+            <summary>
+            Updatable
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryRow.ExtQuery">
+            <summary>
+            ExtQuery
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryRow.ExtDatasourceName">
+            <summary>
+            ExtDatasourceName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryRow.Extension">
+            <summary>
+            Extension
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryRow.SysRevID">
+            <summary>
+            SysRevID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryRow.SysRowID">
+            <summary>
+            SysRowID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryRow.SecCode">
+            <summary>
+            SecCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryRow.AllCompanies">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlRow.Company">
+            <summary>
+            Company Code
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlRow.ControlID">
+            <summary>
+            GUID for control
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlRow.DataSource">
+            <summary>
+            Data Source
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlRow.DataType">
+            <summary>
+            Data Type
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlRow.FieldFormat">
+            <summary>
+            Field Format
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlRow.IsMandatory">
+            <summary>
+            Mandatory flag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlRow.DefaultValue">
+            <summary>
+            Default Value
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlRow.ControlType">
+             <summary>
+             One of predefined constants:
+            Standard ? free type editor/date picker, depend on DataType.
+            RadioSet ? radio button set. Items are specified in QueryCtrlValues table
+            DropDown ? dropdown list. Items are specified in QueryCtrlValues table
+            DropDownBAQ ? dropdown list. Information are stored in QueryCtrlValues table with tree rows with Ids:BAQID, BAQDisplayColumn, BAQValueColumn
+            DropDownUserCodes - dropdown list. Information are stored in QueryCtrlValues table with one row with Id = UserCodeTypeID
+            
+             </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlRow.SourceType">
+            <summary>
+            Type of the datasource 0 - updatable field, 1 - parameter
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlRow.ListSource">
+            <summary>
+            ListSource
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlRow.DisplayColumn">
+            <summary>
+            DisplayColumn
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlRow.ValueColumn">
+            <summary>
+            ValueColumn
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlRow.Seq">
+            <summary>
+            Seq
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlValuesRow.Company">
+            <summary>
+            Company Code
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlValuesRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlValuesRow.ControlID">
+            <summary>
+            GUID for control
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlValuesRow.ID">
+            <summary>
+            Id pof value record
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlValuesRow.Val">
+            <summary>
+            Value
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlValuesRow.Seq">
+            <summary>
+            Sequence number
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlValuesRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlValuesRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlValuesRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlValuesRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCtrlValuesRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCustomActionRow.Company">
+            <summary>
+            Company Code
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCustomActionRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCustomActionRow.ActionID">
+            <summary>
+            Action ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCustomActionRow.ActionLabel">
+            <summary>
+            Displayble text for the action
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCustomActionRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCustomActionRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCustomActionRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCustomActionRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryCustomActionRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryExecuteSettingRow.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryExecuteSettingRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryExecuteSettingRow.SettingID">
+            <summary>
+            SettingID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryExecuteSettingRow.SettingValue">
+            <summary>
+            SettingValue
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryExecuteSettingRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryExecuteSettingRow.SysRevID">
+            <summary>
+            SysRevID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryExecuteSettingRow.SysRowID">
+            <summary>
+            SysRowID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryExecuteSettingRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryExecuteSettingRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryExecuteSettingRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryParameterRow.Company">
+            <summary>
+            Company Code
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryParameterRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryParameterRow.ParameterID">
+            <summary>
+            ParameterID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryParameterRow.ParameterType">
+            <summary>
+            Data type of the parameter
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryParameterRow.ParameterLabel">
+            <summary>
+            ParameterLabel
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryParameterRow.SkipIfEmpty">
+            <summary>
+            Skip condition of parameter is not set
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryParameterRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryParameterRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryParameterRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryParameterRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryParameterRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryRow.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryRow.SubQueryID">
+            <summary>
+            SubQueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryRow.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryRow.Type">
+            <summary>
+            Type
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryRow.Seq">
+            <summary>
+            Seq
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryRow.IsUnion">
+            <summary>
+            IsUnion
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryRow.LeftP">
+            <summary>
+            LeftP
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryRow.RightP">
+            <summary>
+            RightP
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryRow.SelectListClause">
+            <summary>
+            SelectListClause
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryRow.TopRowExpr">
+            <summary>
+            TopRowExpr
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryRow.TopInPercent">
+            <summary>
+            TopInPercent
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryRow.TopWithTies">
+            <summary>
+            TopWithTies
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryRow.SysRevID">
+            <summary>
+            SysRevID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryRow.SysRowID">
+            <summary>
+            SysRowID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryRow.OrderByOffSet">
+            <summary>
+            OrderByOffSet
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryRow.OrderByFetch">
+            <summary>
+            OrderByFetch
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySubQueryRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationRow.SubQueryID">
+            <summary>
+            SubQueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationRow.RelationID">
+            <summary>
+            Query Relation ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationRow.IsFK">
+            <summary>
+            IsFK
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationRow.ParentTableID">
+            <summary>
+            ParentTableID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationRow.ChildTableID">
+            <summary>
+            ChildTableID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationRow.JoinType">
+            <summary>
+            "Outer" = outer-join, "" = inner-join
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationRow.OuterJoin">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldRow.SubQueryID">
+            <summary>
+            SubQueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldRow.RelationID">
+            <summary>
+            Query Relation ID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldRow.Seq">
+            <summary>
+            Sequence Number
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldRow.ParentFieldName">
+            <summary>
+            Parent Field Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldRow.ParentFieldDataType">
+            <summary>
+            ParentFieldDataType
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldRow.ParentFieldIsExpr">
+            <summary>
+            ParentFieldIsExpr
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldRow.ChildFieldName">
+            <summary>
+            Child Field Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldRow.ChildFieldDataType">
+            <summary>
+            ChildFieldDataType
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldRow.ChildFieldIsExpr">
+            <summary>
+            ChildFieldIsExpr
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldRow.AndOr">
+            <summary>
+            AndOr
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldRow.Neg">
+            <summary>
+            Neg
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldRow.LeftP">
+            <summary>
+            LeftP
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldRow.RightP">
+            <summary>
+            RightP
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldRow.CompOp">
+            <summary>
+            CompOp
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryRelationFieldRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByRow.SubQueryID">
+            <summary>
+            SubQueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByRow.TableID">
+            <summary>
+            TableID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByRow.FieldName">
+            <summary>
+            Field Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByRow.Seq">
+            <summary>
+            Sequence Number
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByRow.IsAsc">
+            <summary>
+            IsAsc
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByRow.DisplayName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QuerySortByRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.SubQueryID">
+            <summary>
+            SubQueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.TableID">
+            <summary>
+            TableID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.CriteriaID">
+            <summary>
+            CriteriaID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.Seq">
+            <summary>
+            Sequence Number
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.FieldName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.DataType">
+            <summary>
+            DataType
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.CompOp">
+            <summary>
+            Operator to use for relation between left value and right value.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.AndOr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.Neg">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.LeftP">
+            <summary>
+            LeftP
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.RightP">
+            <summary>
+            RightP
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.IsConst">
+            <summary>
+            Indicates that the ChildField is a contant rather than a database field.  Example: Relationships to Reason requires a reasontype which would be entered as a constant.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.CriteriaType">
+            <summary>
+            CriteriaType
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.ToTableID">
+            <summary>
+            ToTableID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.ToFieldName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.ToDataType">
+            <summary>
+            ToDataType
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.RValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.ExtSecurity">
+            <summary>
+            ExtSecurity
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryWhereItemRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByRow.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByRow.SubQueryID">
+            <summary>
+            SubQueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByRow.GroupByID">
+            <summary>
+            GroupByID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByRow.Expression">
+            <summary>
+            Expression
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByRow.Seq">
+            <summary>
+            Seq
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByRow.SysRevID">
+            <summary>
+            SysRevID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByRow.SysRowID">
+            <summary>
+            SysRowID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryGroupByRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableRow.SubQueryID">
+            <summary>
+            SubQueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableRow.TableID">
+            <summary>
+            TableID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableRow.Seq">
+            <summary>
+            Sequence Number
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableRow.DBSchemaName">
+            <summary>
+            DBSchemaName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableRow.DBTableName">
+            <summary>
+            Database Table Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableRow.TableType">
+            <summary>
+            TableType
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableRow.IsSummaryTable">
+            <summary>
+            Summary Table flag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableRow.IsVisibleInDesigner">
+            <summary>
+            IsVisibleInDesigner
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableRow.Modifiers">
+            <summary>
+            Modifiers
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableRow.PivotFunction">
+            <summary>
+            PivotFunction
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableRow.PivotDataType">
+            <summary>
+            PivotDataType
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableRow.PivotFieldFormat">
+            <summary>
+            PivotFieldFormat
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryTableRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.Company">
+            <summary>
+            Company Identifier.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.SubQueryID">
+            <summary>
+            SubQueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.TableID">
+            <summary>
+            TableID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.FieldName">
+            <summary>
+            Field Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.Seq">
+            <summary>
+            Sequence
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.DBSchemaName">
+            <summary>
+            DBSchemaName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.DBTableName">
+            <summary>
+            Database Table Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.DBFieldName">
+            <summary>
+            Database Field Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.DataType">
+            <summary>
+            Data Type
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.External">
+            <summary>
+            External
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.IsCalculated">
+            <summary>
+            IsCalculated
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.Formula">
+            <summary>
+            Formula
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.FieldFormat">
+            <summary>
+            Field Format
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.FieldLabel">
+            <summary>
+            Field Label
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.LikeDataFieldTableID">
+            <summary>
+            TableID to use with LikeField
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.LikeDataFieldSeq">
+            <summary>
+            Like Data Field Sequence
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.Aggregation">
+            <summary>
+            Aggregation
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.IsGroupBy">
+            <summary>
+            IsGroupBy
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.UseLike">
+            <summary>
+            Use Like
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.LikeDataFieldName">
+            <summary>
+            Like Data Field Name
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.Updatable">
+            <summary>
+            Wheither field can be updated
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.RaiseEvent">
+            <summary>
+            Raise event on update
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.QuickSearchID">
+            <summary>
+            ID of Quick Search assigned to this query field
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.DropDown">
+            <summary>
+            This flag tells whether this display field is used as source of distinct values for drop down list in IW
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.UpdInitExpression">
+            <summary>
+            Initial expression for updatable field, filled on UBAQ.GetNew
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.Alias">
+            <summary>
+            Alias
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.DisplayName">
+            <summary>
+            obsolete, use Alias instead
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeRow.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeRow.SubQueryID">
+            <summary>
+            SubQueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeRow.TableID">
+            <summary>
+            TableID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeRow.FieldName">
+            <summary>
+            FieldName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeRow.AttributeName">
+            <summary>
+            AttributeName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeRow.Value">
+            <summary>
+            Value
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeRow.SysRevID">
+            <summary>
+            SysRevID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeRow.SysRowID">
+            <summary>
+            SysRowID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeRow.IsOverriden">
+            <summary>
+            Flags whether the attribute was changed by user.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFieldAttributeRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallRow.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallRow.SubQueryID">
+            <summary>
+            SubQueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallRow.FunctionID">
+            <summary>
+            FunctionID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallRow.ParameterName">
+            <summary>
+            ParameterName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallRow.Seq">
+            <summary>
+            Seq
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallRow.Value">
+            <summary>
+            Value
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallRow.DataType">
+            <summary>
+            DataType
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallRow.SysRevID">
+            <summary>
+            SysRevID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallRow.SysRowID">
+            <summary>
+            SysRowID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryFunctionCallRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldRow.Company">
+            <summary>
+            Company Code
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldRow.MapTableName">
+            <summary>
+            MapTableName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldRow.MapFieldName">
+            <summary>
+            MapFieldName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldRow.Direction">
+            <summary>
+            Direction
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldRow.Expression">
+            <summary>
+            Expression
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldRow.IsKeyField">
+            <summary>
+            IsKeyField
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldRow.NetDataType">
+            <summary>
+            NetDataType
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldRow.DataType">
+            <summary>
+            Shows field data type - taken from zDataField
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldRow.QualifiedName">
+            <summary>
+            DBTableName + "." + DBFieldName
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldRow.Required">
+            <summary>
+            Shows if field is required - taken from zDataField
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldRow.Description">
+            <summary>
+            Shows field description - taken from zDataField
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateFieldRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsRow.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsRow.AllowAddNew">
+            <summary>
+            AllowAddNew
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsRow.AddNewLabel">
+            <summary>
+            AddNewLabel
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsRow.SupportMDR">
+            <summary>
+            SupportMDR
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsRow.UpdatableType">
+            <summary>
+            UpdatableType
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsRow.UpdatableBO">
+            <summary>
+            UpdatableBO
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsRow.BOSystemCode">
+            <summary>
+            BOSystemCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsRow.UpdateMethod">
+            <summary>
+            UpdateMethod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsRow.SCUrl">
+            <summary>
+            SCUrl
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsRow.SCWorkflow">
+            <summary>
+            SCWorkflow
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsRow.SCCtxUser">
+            <summary>
+            SCCtxUser
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsRow.SCCtxPwd">
+            <summary>
+            SCCtxPwd
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsRow.SysRevID">
+            <summary>
+            SysRevID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsRow.SysRowID">
+            <summary>
+            SysRowID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsRow.SCUserID">
+            <summary>
+            SCUserID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsRow.SCPassword">
+            <summary>
+            SCPassword
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsRow.SCCtxUrl">
+            <summary>
+            SCCtxUrl
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryUpdateSettingsRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryValueSetItemsRow.Company">
+            <summary>
+            Company Code
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryValueSetItemsRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryValueSetItemsRow.ValueSetID">
+            <summary>
+            ID of set of values. Is referenced by QueryWhereItem record for example.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryValueSetItemsRow.ItemValue">
+            <summary>
+            Item Value
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryValueSetItemsRow.SysRevID">
+            <summary>
+            Revision identifier for this row. It is incremented upon each write.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryValueSetItemsRow.SysRowID">
+            <summary>
+            Unique identifier for this row. The value is a GUID.
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryValueSetItemsRow.BitFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryValueSetItemsRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.QueryValueSetItemsRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryListRow.Company">
+            <summary>
+            Company
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryListRow.QueryID">
+            <summary>
+            QueryID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryListRow.AuthorID">
+            <summary>
+            AuthorID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryListRow.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryListRow.IsShared">
+            <summary>
+            IsShared
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryListRow.CGCCode">
+            <summary>
+            CGCCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryListRow.XCompany">
+            <summary>
+            XCompany
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryListRow.Updatable">
+            <summary>
+            Updatable
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryListRow.ExtQuery">
+            <summary>
+            ExtQuery
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryListRow.SystemFlag">
+            <summary>
+            SystemFlag
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryListRow.SysRowID">
+            <summary>
+            SysRowID
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryListRow.AllCompanies">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryListRow.SecCode">
+            <summary>
+            SecCode
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryListRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.DynamicQueryListRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionFilterRow.DataTableID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionFilterRow.FieldName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionFilterRow.Neg">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionFilterRow.CompOp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionFilterRow.RValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionFilterRow.SysRowID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionFilterRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionFilterRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionParameterRow.ParameterID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionParameterRow.ParameterValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionParameterRow.ValueType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionParameterRow.IsEmpty">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionParameterRow.SysRowID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionParameterRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionParameterRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionSettingRow.Name">
+            <summary>
+            name of setting
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionSettingRow.Value">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionSettingRow.SysRowID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionSettingRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionSettingRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionValueSetItemsRow.ValueSetID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionValueSetItemsRow.ItemValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionValueSetItemsRow.SysRowID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionValueSetItemsRow.RowMod">
+            <summary>
+            RowMod
+            </summary>
+        </member>
+        <member name="P:Ice.Tablesets.ExecutionValueSetItemsRow.SpecifiedProperties">
+            <summary>
+            SpecifiedProperties
+            </summary>
+        </member>
+    </members>
+</doc>
